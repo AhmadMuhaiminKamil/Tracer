@@ -1,0 +1,2 @@
+streamlit>=1.38,<2
+prompt_toolkit>=3.0

@@ -1,0 +1,3700 @@
+[
+ {
+  "title": "Yulisar Khiat buys shares of Medikaloka Hermina",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Yulisar Khiat's insider purchase comes after Hasmoro and Yustinus Immanuel Herawan in Medikaloka Hermina, totaling an accumulation of 28,673,400 shares transacted at an average price of IDR 856.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-15092026-1138-00.pdf-0.pdf",
+  "timestamp": "2026-09-15T10:45:26",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "HEAL.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Yulisar Khiat",
+  "holding_before": 993800666,
+  "holding_after": 994961466,
+  "amount_transaction": 1160800,
+  "price": 673.667,
+  "transaction_value": 781992500.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-11",
+    "type": "buy",
+    "price": 670,
+    "amount_transacted": 309500
+   },
+   {
+    "date": "2026-09-14",
+    "type": "buy",
+    "price": 675,
+    "amount_transacted": 851300
+   }
+  ],
+  "share_percentage_before": 6.47,
+  "share_percentage_after": 6.48,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Abadi Lestari Indonesia",
+  "body": "This is Samuel Sekuritas Indonesia's 12th insider purchase in the last 6 months, totaling an accumulation of 1,955,466,500 shares transacted at an average price of IDR 679. Samuel Sekuritas Indonesia's ownership in Abadi Lestari Indonesia has increased from 5.62% to 6.57% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-15092026-7799-00.pdf-0.pdf",
+  "timestamp": "2026-09-15T09:56:31",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "RLCO.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 175686100,
+  "holding_after": 205334300,
+  "amount_transaction": 29648200,
+  "price": 4560.0,
+  "transaction_value": 135195792000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-14",
+    "type": "buy",
+    "price": 4560,
+    "amount_transacted": 29648200
+   }
+  ],
+  "share_percentage_before": 5.62,
+  "share_percentage_after": 6.57,
+  "share_percentage_transaction": 0.95,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Sentul City",
+  "body": "This is Samuel Sekuritas Indonesia's 14th insider purchase in the last 6 months, totaling an accumulation of 12,610,420,100 shares transacted at an average price of IDR 73. Samuel Sekuritas Indonesia's ownership in Sentul City has increased from 3.65% to 5.36% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-15092026-1521-00.pdf-0.pdf",
+  "timestamp": "2026-09-15T09:52:17",
+  "sector": "properties-real-estate",
+  "sub_sector": "properties-real-estate",
+  "tags": [
+   "repurchase-agreement"
+  ],
+  "symbol": "BKSL.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 6116519100,
+  "holding_after": 8989961700,
+  "amount_transaction": 2873442600,
+  "price": 72.0,
+  "transaction_value": 206887867200.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-14",
+    "type": "buy",
+    "price": 72,
+    "amount_transacted": 2873442600
+   }
+  ],
+  "share_percentage_before": 3.65,
+  "share_percentage_after": 5.36,
+  "share_percentage_transaction": 1.71,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Patrick Rudolf Dannacher buys shares of ITSEC Asia",
+  "body": "This is Patrick Rudolf Dannacher's 33rd insider purchase in the last 6 months, totaling an accumulation of 99,624,300 shares transacted at an average price of IDR 645. Patrick Rudolf Dannacher's ownership in ITSEC Asia has increased from 0.693% to 0.715% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-14092026-1642-00.pdf-0.pdf",
+  "timestamp": "2026-09-14T18:25:20",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "CYBR.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Patrick Rudolf Dannacher",
+  "holding_before": 93385500,
+  "holding_after": 96466500,
+  "amount_transaction": 3081000,
+  "price": 517.625,
+  "transaction_value": 1594803500.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-08",
+    "type": "buy",
+    "price": 515,
+    "amount_transacted": 323900
+   },
+   {
+    "date": "2026-09-08",
+    "type": "buy",
+    "price": 530,
+    "amount_transacted": 100
+   },
+   {
+    "date": "2026-09-08",
+    "type": "buy",
+    "price": 525,
+    "amount_transacted": 201200
+   },
+   {
+    "date": "2026-09-08",
+    "type": "buy",
+    "price": 520,
+    "amount_transacted": 300100
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 525,
+    "amount_transacted": 271500
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 515,
+    "amount_transacted": 100
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 520,
+    "amount_transacted": 307400
+   },
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 525,
+    "amount_transacted": 100300
+   },
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 510,
+    "amount_transacted": 100100
+   },
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 520,
+    "amount_transacted": 260000
+   },
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 515,
+    "amount_transacted": 814000
+   },
+   {
+    "date": "2026-09-11",
+    "type": "buy",
+    "price": 510,
+    "amount_transacted": 300000
+   },
+   {
+    "date": "2026-09-11",
+    "type": "buy",
+    "price": 515,
+    "amount_transacted": 100700
+   },
+   {
+    "date": "2026-09-11",
+    "type": "buy",
+    "price": 530,
+    "amount_transacted": 800
+   },
+   {
+    "date": "2026-09-11",
+    "type": "buy",
+    "price": 525,
+    "amount_transacted": 200
+   },
+   {
+    "date": "2026-09-11",
+    "type": "buy",
+    "price": 520,
+    "amount_transacted": 400
+   },
+   {
+    "date": "2026-09-11",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 200
+   }
+  ],
+  "share_percentage_before": 0.693,
+  "share_percentage_after": 0.715,
+  "share_percentage_transaction": 0.022,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Yustinus Immanuel Herawan buys shares of Medikaloka Hermina",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Yustinus Immanuel Herawan's insider purchase comes after Hasmoro and Yulisar Khiat in Medikaloka Hermina, totaling an accumulation of 27,512,600 shares transacted at an average price of IDR 864.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-14092026-5158-00.pdf-0.pdf",
+  "timestamp": "2026-09-14T14:38:32",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "HEAL.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Yustinus Immanuel Herawan",
+  "holding_before": 260000,
+  "holding_after": 335000,
+  "amount_transaction": 75000,
+  "price": 680.0,
+  "transaction_value": 51000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-08",
+    "type": "buy",
+    "price": 680,
+    "amount_transacted": 75000
+   }
+  ],
+  "share_percentage_before": 0.002,
+  "share_percentage_after": 0.002,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Edwin Soeryadjaya buys shares of Saratoga Investama Sedaya",
+  "body": "This is Edwin Soeryadjaya's 4th insider purchase in the last 6 months, totaling an accumulation of 5,743,900 shares transacted at an average price of IDR 1,815. Edwin Soeryadjaya's ownership in Saratoga Investama Sedaya has increased from 35.918% to 35.926% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-14092026-2267-00.pdf-0.pdf",
+  "timestamp": "2026-09-14T14:21:07",
+  "sector": "financials",
+  "sub_sector": "holding-investment-companies",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "SRTG.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Edwin Soeryadjaya",
+  "holding_before": 4872231490,
+  "holding_after": 4873249590,
+  "amount_transaction": 1018100,
+  "price": 1815.051,
+  "transaction_value": 1847903800.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 1829,
+    "amount_transacted": 560000
+   },
+   {
+    "date": "2026-09-11",
+    "type": "buy",
+    "price": 1798,
+    "amount_transacted": 458100
+   }
+  ],
+  "share_percentage_before": 35.918,
+  "share_percentage_after": 35.926,
+  "share_percentage_transaction": 0.008,
+  "idx_investor_slug": "edwin-soeryadjaya",
+  "idx_conglomerates_group_slug": "saratoga-group"
+ },
+ {
+  "title": "George Oetomo buys shares of Triputra Agro Persada",
+  "body": "This is George Oetomo's 7th insider purchase in the last 6 months, totaling an accumulation of 2,350,000 shares transacted at an average price of IDR 1,702. George Oetomo's ownership in Triputra Agro Persada has increased from 0.257% to 0.258% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-14092026-8217-00.pdf-0.pdf",
+  "timestamp": "2026-09-14T09:31:55",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TAPG.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "George Oetomo",
+  "holding_before": 51006100,
+  "holding_after": 51256100,
+  "amount_transaction": 250000,
+  "price": 2310.0,
+  "transaction_value": 577500000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 2310,
+    "amount_transacted": 250000
+   }
+  ],
+  "share_percentage_before": 0.257,
+  "share_percentage_after": 0.258,
+  "share_percentage_transaction": 0.001,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Ibnu Susanto buys shares of Saranacentral Bajatama",
+  "body": "Ibnu Susanto bought 11,189,500 shares of Saranacentral Bajatama. This increases their holdings from 296,016,000 to 307,205,500 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-14092026-8980-00.pdf-0.pdf",
+  "timestamp": "2026-09-14T09:28:40",
+  "sector": "basic-materials",
+  "sub_sector": "basic-materials",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BAJA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Ibnu Susanto",
+  "holding_before": 296016000,
+  "holding_after": 307205500,
+  "amount_transaction": 11189500,
+  "price": 894.142,
+  "transaction_value": 10005006500.0,
+  "price_transaction": [
+   {
+    "date": "2026-04-01",
+    "type": "buy",
+    "price": 606,
+    "amount_transacted": 630000
+   },
+   {
+    "date": "2026-04-02",
+    "type": "buy",
+    "price": 614,
+    "amount_transacted": 960000
+   },
+   {
+    "date": "2026-04-14",
+    "type": "buy",
+    "price": 474,
+    "amount_transacted": 1740000
+   },
+   {
+    "date": "2026-04-15",
+    "type": "buy",
+    "price": 658,
+    "amount_transacted": 2240000
+   },
+   {
+    "date": "2026-04-17",
+    "type": "buy",
+    "price": 825,
+    "amount_transacted": 2350000
+   },
+   {
+    "date": "2026-04-20",
+    "type": "buy",
+    "price": 1467,
+    "amount_transacted": 3269500
+   }
+  ],
+  "share_percentage_before": 16.45,
+  "share_percentage_after": 17.072,
+  "share_percentage_transaction": 0.622,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Tunggal Jaya Investama buys shares of Impack Pratama Industri",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Tunggal Jaya Investama's insider purchase comes after Harimas Tunggal Perkasa, Haryanto Tjiptodihardjo, Impack Pratama Industri and Phillip Tjipto in Impack Pratama Industri, totaling an accumulation of 2,333,920,557 shares transacted at an average price of IDR 1,353.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-11092026-7235-00.pdf-0.pdf",
+  "timestamp": "2026-09-11T17:45:26",
+  "sector": "industrials",
+  "sub_sector": "industrial-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "IMPC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Tunggal Jaya Investama",
+  "holding_before": 21083319394,
+  "holding_after": 21088081694,
+  "amount_transaction": 4762300,
+  "price": 1647.322,
+  "transaction_value": 7845042900.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-08",
+    "type": "buy",
+    "price": 1617,
+    "amount_transacted": 3400000
+   },
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 1723,
+    "amount_transacted": 1362300
+   }
+  ],
+  "share_percentage_before": 38.39,
+  "share_percentage_after": 38.41,
+  "share_percentage_transaction": 0.02,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Cgs International Securities Singapore buys shares of Wilton Makmur Indonesia",
+  "body": "Cgs International Securities Singapore's acquisition of SQMI shares is the latest in a series of investments, with Cgs International Securities Singapore adding to their position across 2 companies in the last 6 months. Alongside SQMI, Cgs International Securities Singapore has also acquired shares of PURA, totaling IDR 1,606,111,400 across all purchases in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-11092026-0829-00.pdf-0.pdf",
+  "timestamp": "2026-09-11T10:51:27",
+  "sector": "basic-materials",
+  "sub_sector": "basic-materials",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "SQMI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Cgs International Securities Singapore",
+  "holding_before": 3042028429,
+  "holding_after": 3043028429,
+  "amount_transaction": 1000000,
+  "price": 103.0,
+  "transaction_value": 103000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 103,
+    "amount_transacted": 1000000
+   }
+  ],
+  "share_percentage_before": 19.58,
+  "share_percentage_after": 19.586,
+  "share_percentage_transaction": 0.006,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Yulie Sekuritas Indonesia buys shares of Esa Medika Mandiri",
+  "body": "This is Yulie Sekuritas Indonesia's 4th insider purchase in the last 6 months, totaling an accumulation of 254,620,900 shares transacted at an average price of IDR 471. Yulie Sekuritas Indonesia's ownership in Esa Medika Mandiri has increased from 9.95% to 10.06% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-11092026-6017-00.pdf-0.pdf",
+  "timestamp": "2026-09-11T10:20:22",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "EMMI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Yulie Sekuritas Indonesia",
+  "holding_before": 173382600,
+  "holding_after": 174824500,
+  "amount_transaction": 1957800,
+  "price": 356.934,
+  "transaction_value": 698805000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 350,
+    "amount_transacted": 112400
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 352,
+    "amount_transacted": 64800
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 354,
+    "amount_transacted": 264700
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 356,
+    "amount_transacted": 450000
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 358,
+    "amount_transacted": 150000
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 360,
+    "amount_transacted": 400000
+   },
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 356,
+    "amount_transacted": 115900
+   },
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 358,
+    "amount_transacted": 104400
+   },
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 360,
+    "amount_transacted": 295600
+   }
+  ],
+  "share_percentage_before": 9.95,
+  "share_percentage_after": 10.06,
+  "share_percentage_transaction": 0.11,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Sukses Sejati Sejahtera buys shares of Victoria Care Indonesia",
+  "body": "Sukses Sejati Sejahtera bought 1,677,000,000 shares of Victoria Care Indonesia. This increases their holdings from 4,021,380,000 to 5,698,380,000 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-10092026-3292-00.pdf-0.pdf",
+  "timestamp": "2026-09-10T17:40:29",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "nondurable-household-products",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "VICI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Sukses Sejati Sejahtera",
+  "holding_before": 4021380000,
+  "holding_after": 5698380000,
+  "amount_transaction": 1677000000,
+  "price": 747.0,
+  "transaction_value": 1252719000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-10",
+    "type": "buy",
+    "price": 747,
+    "amount_transacted": 1677000000
+   }
+  ],
+  "share_percentage_before": 59.95,
+  "share_percentage_after": 84.95,
+  "share_percentage_transaction": 25.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Edwin Soeryadjaya buys shares of Saratoga Investama Sedaya",
+  "body": "This is Edwin Soeryadjaya's 3rd insider purchase in the last 6 months, totaling an accumulation of 4,725,800 shares transacted at an average price of IDR 1,815. Edwin Soeryadjaya's ownership in Saratoga Investama Sedaya has increased from 35.907% to 35.918% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-10092026-5050-00.pdf-0.pdf",
+  "timestamp": "2026-09-10T14:53:20",
+  "sector": "financials",
+  "sub_sector": "holding-investment-companies",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "SRTG.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Edwin Soeryadjaya",
+  "holding_before": 4870735690,
+  "holding_after": 4872231490,
+  "amount_transaction": 1495800,
+  "price": 1829.381,
+  "transaction_value": 2736387600.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-08",
+    "type": "buy",
+    "price": 1822,
+    "amount_transacted": 1015800
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 1845,
+    "amount_transacted": 480000
+   }
+  ],
+  "share_percentage_before": 35.907,
+  "share_percentage_after": 35.918,
+  "share_percentage_transaction": 0.011,
+  "idx_investor_slug": "edwin-soeryadjaya",
+  "idx_conglomerates_group_slug": "saratoga-group"
+ },
+ {
+  "title": "Hasmoro buys shares of Medikaloka Hermina",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Hasmoro's insider purchase comes after Yulisar Khiat and Yustinus Immanuel Herawan in Medikaloka Hermina, totaling an accumulation of 27,437,600 shares transacted at an average price of IDR 864.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-10092026-8332-00.pdf-0.pdf",
+  "timestamp": "2026-09-10T11:52:41",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "HEAL.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Hasmoro",
+  "holding_before": 775441989,
+  "holding_after": 776984189,
+  "amount_transaction": 1542200,
+  "price": 685.0,
+  "transaction_value": 1056407000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 685,
+    "amount_transacted": 1542200
+   }
+  ],
+  "share_percentage_before": 5.05,
+  "share_percentage_after": 5.06,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Haryanto Sofian buys shares of Perdana Karya Perkasa",
+  "body": "This is Haryanto Sofian's 3rd insider purchase in the last 6 months, totaling an accumulation of 531,100 shares transacted at an average price of IDR 4,343. Haryanto Sofian's ownership in Perdana Karya Perkasa has increased from 0.19% to 0.23% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-10092026-6332-00.pdf-0.pdf",
+  "timestamp": "2026-09-10T11:15:04",
+  "sector": "energy",
+  "sub_sector": "oil-gas-coal",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "PKPK.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Haryanto Sofian",
+  "holding_before": 2316500,
+  "holding_after": 2771500,
+  "amount_transaction": 455000,
+  "price": 4675.149,
+  "transaction_value": 2127193000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 4640,
+    "amount_transacted": 3900
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 4650,
+    "amount_transacted": 155600
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 4660,
+    "amount_transacted": 19500
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 4700,
+    "amount_transacted": 74500
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 4680,
+    "amount_transacted": 39400
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 4690,
+    "amount_transacted": 156900
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 4670,
+    "amount_transacted": 5200
+   }
+  ],
+  "share_percentage_before": 0.19,
+  "share_percentage_after": 0.23,
+  "share_percentage_transaction": 0.04,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Patrick Rudolf Dannacher buys shares of ITSEC Asia",
+  "body": "This is Patrick Rudolf Dannacher's 33rd insider purchase in the last 6 months, totaling an accumulation of 96,626,300 shares transacted at an average price of IDR 650. Patrick Rudolf Dannacher's ownership in ITSEC Asia has increased from 0.677% to 0.693% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-09092026-1091-00.pdf-0.pdf",
+  "timestamp": "2026-09-09T16:21:01",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "CYBR.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Patrick Rudolf Dannacher",
+  "holding_before": 91270100,
+  "holding_after": 93385500,
+  "amount_transaction": 2115400,
+  "price": 537.395,
+  "transaction_value": 1136805500.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 150000
+   },
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 540,
+    "amount_transacted": 520900
+   },
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 545,
+    "amount_transacted": 400
+   },
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 545,
+    "amount_transacted": 1100
+   },
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 540,
+    "amount_transacted": 230100
+   },
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 550,
+    "amount_transacted": 100
+   },
+   {
+    "date": "2026-09-03",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 100
+   },
+   {
+    "date": "2026-09-03",
+    "type": "buy",
+    "price": 540,
+    "amount_transacted": 164900
+   },
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 530,
+    "amount_transacted": 266300
+   },
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 601200
+   },
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 540,
+    "amount_transacted": 200
+   },
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 545,
+    "amount_transacted": 180100
+   }
+  ],
+  "share_percentage_before": 0.677,
+  "share_percentage_after": 0.693,
+  "share_percentage_transaction": 0.016,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Irsyad Hanif buys shares of Aman Agrindo",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Irsyad Hanif's insider purchase comes after Aman Resources Indonesia and Andreas Utomo in Aman Agrindo, totaling an accumulation of 73,411,000 shares transacted at an average price of IDR 291.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-09092026-6713-00.pdf-0.pdf",
+  "timestamp": "2026-09-09T14:28:48",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "GULA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Irsyad Hanif",
+  "holding_before": 75478400,
+  "holding_after": 95478400,
+  "amount_transaction": 20000000,
+  "price": 364.0,
+  "transaction_value": 7280000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-07",
+    "type": "buy",
+    "price": 364,
+    "amount_transacted": 20000000
+   }
+  ],
+  "share_percentage_before": 7.05,
+  "share_percentage_after": 8.92,
+  "share_percentage_transaction": 1.87,
+  "idx_investor_slug": "irsyad-hanif",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Tri Hartono buys shares of Garuda Maintenance Facility Aero Asia",
+  "body": "Tri Hartono bought 1,500 shares of Garuda Maintenance Facility Aero Asia. This increases their holdings from 3,500 to 5,000 shares. The stated purpose of the transaction was expand personal investment portfolio..",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-09092026-8116-00.pdf-0.pdf",
+  "timestamp": "2026-09-09T13:43:20",
+  "sector": "infrastructures",
+  "sub_sector": "transportation-infrastructure",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "GMFI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Tri Hartono",
+  "holding_before": 3500,
+  "holding_after": 5000,
+  "amount_transaction": 1500,
+  "price": 60.333,
+  "transaction_value": 90500.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 61,
+    "amount_transacted": 500
+   },
+   {
+    "date": "2026-09-09",
+    "type": "buy",
+    "price": 60,
+    "amount_transacted": 1000
+   }
+  ],
+  "share_percentage_before": 0.0,
+  "share_percentage_after": 0.0,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Verah Wahyudi S Wong buys shares of Lancartama Sejati",
+  "body": "This is Verah Wahyudi S Wong's 6th insider purchase in the last 6 months, totaling an accumulation of 39,434,800 shares transacted at an average price of IDR 200. Verah Wahyudi S Wong's ownership in Lancartama Sejati has increased from 9.58% to 10.06% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-08092026-7644-00.pdf-0.pdf",
+  "timestamp": "2026-09-08T19:03:09",
+  "sector": "infrastructures",
+  "sub_sector": "heavy-constructions-civil-engineering",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TAMA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Verah Wahyudi S Wong",
+  "holding_before": 115010800,
+  "holding_after": 120767100,
+  "amount_transaction": 5756300,
+  "price": 190.0,
+  "transaction_value": 1093697000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-08",
+    "type": "buy",
+    "price": 190,
+    "amount_transacted": 5756300
+   }
+  ],
+  "share_percentage_before": 9.58,
+  "share_percentage_after": 10.06,
+  "share_percentage_transaction": 0.48,
+  "idx_investor_slug": "verah-wahyudi-s-wong",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Yuliot, Ir buys shares of Bank Mandiri",
+  "body": "This is Yuliot, Ir's 3rd insider purchase in the last 6 months, totaling an accumulation of 146,900 shares transacted at an average price of IDR 4,208. Yuliot, Ir's ownership in Bank Mandiri has decreased from 0.0% to 0.0% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-08092026-3898-00.pdf-0.pdf",
+  "timestamp": "2026-09-08T17:58:46",
+  "sector": "financials",
+  "sub_sector": "banks",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BMRI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Yuliot, Ir",
+  "holding_before": 165600,
+  "holding_after": 188400,
+  "amount_transaction": 22800,
+  "price": 4380.0,
+  "transaction_value": 99864000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-07",
+    "type": "buy",
+    "price": 4380,
+    "amount_transacted": 22800
+   }
+  ],
+  "share_percentage_before": 0.0,
+  "share_percentage_after": 0.0,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Yuliot, Ir buys shares of Bank Mandiri",
+  "body": "Yuliot, Ir bought 22,400 shares of Bank Mandiri. This increases their holdings from 143,200 to 165,600 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-08092026-7905-00.pdf-0.pdf",
+  "timestamp": "2026-09-08T17:53:21",
+  "sector": "financials",
+  "sub_sector": "banks",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BMRI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Yuliot, Ir",
+  "holding_before": 143200,
+  "holding_after": 165600,
+  "amount_transaction": 22400,
+  "price": 4430.0,
+  "transaction_value": 99232000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 4430,
+    "amount_transacted": 22400
+   }
+  ],
+  "share_percentage_before": 0.0,
+  "share_percentage_after": 0.0,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Digital Edge (Hong Kong) buys shares of Indointernet",
+  "body": "Digital Edge (Hong Kong) bought 360,600 shares of Indointernet. This increases their holdings from 1,201,087,700 to 1,201,448,300 shares. The stated purpose of the transaction was completion of the voluntary tender offer in connection with the planned change of edge's status from a listed public company to a private company..",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-08092026-2145-00.pdf-0.pdf",
+  "timestamp": "2026-09-08T17:41:20",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "EDGE.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Digital Edge (Hong Kong)",
+  "holding_before": 1201087700,
+  "holding_after": 1201448300,
+  "amount_transaction": 360600,
+  "price": 11500.0,
+  "transaction_value": 4146900000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 11500,
+    "amount_transacted": 360600
+   }
+  ],
+  "share_percentage_before": 59.45,
+  "share_percentage_after": 59.47,
+  "share_percentage_transaction": 0.02,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Tunggal Jaya Investama buys shares of Impack Pratama Industri",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Tunggal Jaya Investama's insider purchase comes after Harimas Tunggal Perkasa, Haryanto Tjiptodihardjo, Impack Pratama Industri and Phillip Tjipto in Impack Pratama Industri, totaling an accumulation of 2,329,158,257 shares transacted at an average price of IDR 1,352.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-08092026-9363-00.pdf-0.pdf",
+  "timestamp": "2026-09-08T17:20:18",
+  "sector": "industrials",
+  "sub_sector": "industrial-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "IMPC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Tunggal Jaya Investama",
+  "holding_before": 21076743394,
+  "holding_after": 21083319394,
+  "amount_transaction": 6576000,
+  "price": 1464.8,
+  "transaction_value": 9632528000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 1428,
+    "amount_transacted": 4576000
+   },
+   {
+    "date": "2026-09-07",
+    "type": "buy",
+    "price": 1549,
+    "amount_transacted": 2000000
+   }
+  ],
+  "share_percentage_before": 38.39,
+  "share_percentage_after": 38.39,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Rd Adi Wardhana Sariaatmadja buys shares of Bukalapak.com",
+  "body": "Rd Adi Wardhana Sariaatmadja bought 635,000,000 shares of Bukalapak.com. This increases their holdings from 772,585,501 to 1,407,585,501 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-08092026-6401-00.pdf-0.pdf",
+  "timestamp": "2026-09-08T16:15:50",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BUKA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Rd Adi Wardhana Sariaatmadja",
+  "holding_before": 772585501,
+  "holding_after": 1407585501,
+  "amount_transaction": 635000000,
+  "price": 124.0,
+  "transaction_value": 78740000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 124,
+    "amount_transacted": 635000000
+   }
+  ],
+  "share_percentage_before": 0.841,
+  "share_percentage_after": 1.533,
+  "share_percentage_transaction": 0.692,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Edwin Soeryadjaya buys shares of Saratoga Investama Sedaya",
+  "body": "Edwin Soeryadjaya bought 980,000 shares of Saratoga Investama Sedaya. This increases their holdings from 4,869,755,690 to 4,870,735,690 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-08092026-9251-00.pdf-0.pdf",
+  "timestamp": "2026-09-08T15:44:40",
+  "sector": "financials",
+  "sub_sector": "holding-investment-companies",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "SRTG.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Edwin Soeryadjaya",
+  "holding_before": 4869755690,
+  "holding_after": 4870735690,
+  "amount_transaction": 980000,
+  "price": 1805.612,
+  "transaction_value": 1769500000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 1806,
+    "amount_transacted": 600000
+   },
+   {
+    "date": "2026-09-07",
+    "type": "buy",
+    "price": 1805,
+    "amount_transacted": 380000
+   }
+  ],
+  "share_percentage_before": 35.9,
+  "share_percentage_after": 35.907,
+  "share_percentage_transaction": 0.007,
+  "idx_investor_slug": "edwin-soeryadjaya",
+  "idx_conglomerates_group_slug": "saratoga-group"
+ },
+ {
+  "title": "Kharisma Cipta Towerindo buys shares of Bali Towerindo Sentra",
+  "body": "Kharisma Cipta Towerindo bought 4,900,000 shares of Bali Towerindo Sentra. This increases their holdings from 2,348,950,000 to 2,353,850,000 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-08092026-8568-00.pdf-0.pdf",
+  "timestamp": "2026-09-08T10:41:02",
+  "sector": "infrastructures",
+  "sub_sector": "telecommunication",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BALI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Kharisma Cipta Towerindo",
+  "holding_before": 2348950000,
+  "holding_after": 2353850000,
+  "amount_transaction": 4900000,
+  "price": 1420.0,
+  "transaction_value": 6958000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-07",
+    "type": "buy",
+    "price": 1420,
+    "amount_transacted": 4900000
+   }
+  ],
+  "share_percentage_before": 59.7,
+  "share_percentage_after": 59.82,
+  "share_percentage_transaction": 0.12,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Morgan Stanley And Co International Plc buys shares of GoTo Gojek Tokopedia",
+  "body": "Morgan Stanley And Co International Plc's acquisition of GOTO shares is the latest in a series of investments, with the firm adding to their position across 2 companies in the last 6 months. Alongside GOTO, the firm has also acquired shares of AMRT, totaling IDR 436,716,990,306 across all purchases in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-07092026-9537-00.pdf-0.pdf",
+  "timestamp": "2026-09-07T17:10:05",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "GOTO.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Morgan Stanley And Co International Plc",
+  "holding_before": 65808820258,
+  "holding_after": 75029997584,
+  "amount_transaction": 9221177326,
+  "price": 25.0,
+  "transaction_value": 230529433150.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 25,
+    "amount_transacted": 9221177326
+   }
+  ],
+  "share_percentage_before": 5.716,
+  "share_percentage_after": 6.517,
+  "share_percentage_transaction": 0.801,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Kreatif Media Karya buys shares of Bukalapak.com",
+  "body": "Kreatif Media Karya bought 803,287,800 shares of Bukalapak.com. This increases their holdings from 46,321,746,385 to 47,125,034,185 shares. The stated purpose of the transaction was for investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-07092026-8071-00.pdf-0.pdf",
+  "timestamp": "2026-09-07T16:28:10",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BUKA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Kreatif Media Karya",
+  "holding_before": 46321746385,
+  "holding_after": 47125034185,
+  "amount_transaction": 803287800,
+  "price": 126.0,
+  "transaction_value": 101214262800.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 126,
+    "amount_transacted": 803287800
+   }
+  ],
+  "share_percentage_before": 44.9,
+  "share_percentage_after": 45.68,
+  "share_percentage_transaction": 0.78,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Abadi Lestari Indonesia",
+  "body": "This is Samuel Sekuritas Indonesia's 11th insider purchase in the last 6 months, totaling an accumulation of 1,925,818,300 shares transacted at an average price of IDR 619. Samuel Sekuritas Indonesia's ownership in Abadi Lestari Indonesia has increased from 6.36% to 6.57% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-07092026-4982-00.pdf-0.pdf",
+  "timestamp": "2026-09-07T16:11:37",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "RLCO.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 198644500,
+  "holding_after": 205311500,
+  "amount_transaction": 6667000,
+  "price": 1500.0,
+  "transaction_value": 10000500000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-07",
+    "type": "buy",
+    "price": 1500,
+    "amount_transacted": 6667000
+   }
+  ],
+  "share_percentage_before": 6.36,
+  "share_percentage_after": 6.57,
+  "share_percentage_transaction": 0.21,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Trihartono buys shares of Garuda Maintenance Facility Aero Asia",
+  "body": "Trihartono bought 350,000 shares of Garuda Maintenance Facility Aero Asia. This increases their holdings from 0 to 350,000 shares. The stated purpose of the transaction was expand personal investment portfolio.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-07092026-1844-00.pdf-0.pdf",
+  "timestamp": "2026-09-07T15:12:36",
+  "sector": "infrastructures",
+  "sub_sector": "transportation-infrastructure",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "GMFI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Trihartono",
+  "holding_before": 0,
+  "holding_after": 350000,
+  "amount_transaction": 350000,
+  "price": 58.0,
+  "transaction_value": 20300000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-24",
+    "type": "buy",
+    "price": 58,
+    "amount_transacted": 350000
+   }
+  ],
+  "share_percentage_before": 0.0,
+  "share_percentage_after": 0.0,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Tree Of Blessing buys shares of Indonesian Paradise Property",
+  "body": "Tree Of Blessing bought 872,278,900 shares of Indonesian Paradise Property. This increases their holdings from 3,147,549,873 to 4,019,828,773 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-07092026-0079-00.pdf-0.pdf",
+  "timestamp": "2026-09-07T12:00:31",
+  "sector": "properties-real-estate",
+  "sub_sector": "properties-real-estate",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "INPP.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Tree Of Blessing",
+  "holding_before": 3147549873,
+  "holding_after": 4019828773,
+  "amount_transaction": 872278900,
+  "price": 720.0,
+  "transaction_value": 628040808000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 720,
+    "amount_transacted": 872278900
+   }
+  ],
+  "share_percentage_before": 28.15,
+  "share_percentage_after": 35.95,
+  "share_percentage_transaction": 7.8,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Nusantara Sawit Sejahtera",
+  "body": "This is Samuel Sekuritas Indonesia's 23rd insider purchase in the last 6 months, totaling an accumulation of 8,532,224,100 shares transacted at an average price of IDR 756. Samuel Sekuritas Indonesia's ownership in Nusantara Sawit Sejahtera has increased from 24.86% to 28.343% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-07092026-8982-00.pdf-0.pdf",
+  "timestamp": "2026-09-07T09:50:59",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "placement",
+   "repurchase-agreement"
+  ],
+  "symbol": "NSSS.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 5917373100,
+  "holding_after": 6746437200,
+  "amount_transaction": 829064100,
+  "price": 796.941,
+  "transaction_value": 660714813500.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 795,
+    "amount_transacted": 507293300
+   },
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 800,
+    "amount_transacted": 321770800
+   }
+  ],
+  "share_percentage_before": 24.86,
+  "share_percentage_after": 28.343,
+  "share_percentage_transaction": 3.483,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of MD Entertainment",
+  "body": "This is Samuel Sekuritas Indonesia's 17th insider purchase in the last 6 months, totaling an accumulation of 1,901,482,300 shares transacted at an average price of IDR 1,753. Samuel Sekuritas Indonesia's ownership in MD Entertainment has increased from 8.37% to 9.64% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-07092026-0910-00.pdf-0.pdf",
+  "timestamp": "2026-09-07T09:44:43",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "media-entertainment",
+  "tags": [
+   "placement",
+   "repurchase-agreement"
+  ],
+  "symbol": "FILM.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 911169800,
+  "holding_after": 1049325300,
+  "amount_transaction": 138155500,
+  "price": 740.0,
+  "transaction_value": 102235070000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-04",
+    "type": "buy",
+    "price": 740,
+    "amount_transacted": 138155500
+   }
+  ],
+  "share_percentage_before": 8.37,
+  "share_percentage_after": 9.64,
+  "share_percentage_transaction": 1.27,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Gt.Denny Ramdhani buys shares of Dana Brata Luhur",
+  "body": "Gt.Denny Ramdhani bought 50,000 shares of Dana Brata Luhur. This increases their holdings from 0 to 50,000 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-07092026-4791-00.pdf-0.pdf",
+  "timestamp": "2026-09-07T08:56:18",
+  "sector": "energy",
+  "sub_sector": "oil-gas-coal",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TEBE.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Gt.Denny Ramdhani",
+  "holding_before": 0,
+  "holding_after": 50000,
+  "amount_transaction": 50000,
+  "price": 1750.0,
+  "transaction_value": 87500000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 1750,
+    "amount_transacted": 50000
+   }
+  ],
+  "share_percentage_before": 0.0,
+  "share_percentage_after": 0.004,
+  "share_percentage_transaction": 0.004,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Edwin Soeryadjaya buys shares of Saratoga Investama Sedaya",
+  "body": "Edwin Soeryadjaya bought 2,250,000 shares of Saratoga Investama Sedaya. This increases their holdings from 4,867,505,690 to 4,869,755,690 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-04092026-2426-00.pdf-0.pdf",
+  "timestamp": "2026-09-04T14:55:37",
+  "sector": "financials",
+  "sub_sector": "holding-investment-companies",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "SRTG.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Edwin Soeryadjaya",
+  "holding_before": 4867505690,
+  "holding_after": 4869755690,
+  "amount_transaction": 2250000,
+  "price": 1809.84,
+  "transaction_value": 4072140000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 1823,
+    "amount_transacted": 840000
+   },
+   {
+    "date": "2026-09-03",
+    "type": "buy",
+    "price": 1802,
+    "amount_transacted": 1410000
+   }
+  ],
+  "share_percentage_before": 35.883,
+  "share_percentage_after": 35.9,
+  "share_percentage_transaction": 0.017,
+  "idx_investor_slug": "edwin-soeryadjaya",
+  "idx_conglomerates_group_slug": "saratoga-group"
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Nusantara Sawit Sejahtera",
+  "body": "This is Samuel Sekuritas Indonesia's 22nd insider purchase in the last 6 months, totaling an accumulation of 7,703,160,000 shares transacted at an average price of IDR 751. Samuel Sekuritas Indonesia's ownership in Nusantara Sawit Sejahtera has increased from 25.15% to 26.439% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-03092026-7863-00.pdf-0.pdf",
+  "timestamp": "2026-09-03T17:46:06",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "placement",
+   "repurchase-agreement"
+  ],
+  "symbol": "NSSS.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 5986413000,
+  "holding_after": 6293260000,
+  "amount_transaction": 306847000,
+  "price": 820.0,
+  "transaction_value": 251614540000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-03",
+    "type": "buy",
+    "price": 820,
+    "amount_transacted": 306847000
+   }
+  ],
+  "share_percentage_before": 25.15,
+  "share_percentage_after": 26.439,
+  "share_percentage_transaction": 1.289,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of MD Entertainment",
+  "body": "This is Samuel Sekuritas Indonesia's 16th insider purchase in the last 6 months, totaling an accumulation of 1,763,326,800 shares transacted at an average price of IDR 1,832. Samuel Sekuritas Indonesia's ownership in MD Entertainment has increased from 5.88% to 8.37% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-03092026-8113-00.pdf-0.pdf",
+  "timestamp": "2026-09-03T17:41:59",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "media-entertainment",
+  "tags": [
+   "placement",
+   "repurchase-agreement"
+  ],
+  "symbol": "FILM.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 640643500,
+  "holding_after": 911169800,
+  "amount_transaction": 270526300,
+  "price": 760.0,
+  "transaction_value": 205599988000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-03",
+    "type": "buy",
+    "price": 760,
+    "amount_transacted": 270526300
+   }
+  ],
+  "share_percentage_before": 5.88,
+  "share_percentage_after": 8.37,
+  "share_percentage_transaction": 2.49,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Platinum Berkah Abadi buys shares of Kian Santang Muliatama",
+  "body": "Platinum Berkah Abadi bought 29,187,900 shares of Kian Santang Muliatama. This increases their holdings from 41,912,100 to 71,100,000 shares. The stated purpose of the transaction was the change in ownership amount reflects incremental share purchase and sale activities undertaken as part of portfolio management and investment strategy, including profit realization and share repurchases based on investment considerations..",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-03092026-0304-00.pdf-0.pdf",
+  "timestamp": "2026-09-03T17:22:04",
+  "sector": "energy",
+  "sub_sector": "oil-gas-coal",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "RGAS.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Platinum Berkah Abadi",
+  "holding_before": 41912100,
+  "holding_after": 71100000,
+  "amount_transaction": 29187900,
+  "price": 257.0,
+  "transaction_value": 7501290300.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 257,
+    "amount_transacted": 29187900
+   }
+  ],
+  "share_percentage_before": 2.87,
+  "share_percentage_after": 4.87,
+  "share_percentage_transaction": 2.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Verah Wahyudi S Wong buys shares of Lancartama Sejati",
+  "body": "This is Verah Wahyudi S Wong's 6th insider purchase in the last 6 months, totaling an accumulation of 44,729,200 shares transacted at an average price of IDR 179. Verah Wahyudi S Wong's ownership in Lancartama Sejati has increased from 9.47% to 9.93% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-03092026-2105-00.pdf-0.pdf",
+  "timestamp": "2026-09-03T17:14:15",
+  "sector": "infrastructures",
+  "sub_sector": "heavy-constructions-civil-engineering",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TAMA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Verah Wahyudi S Wong",
+  "holding_before": 113636500,
+  "holding_after": 119136500,
+  "amount_transaction": 5500000,
+  "price": 191.0,
+  "transaction_value": 1050500000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-03",
+    "type": "buy",
+    "price": 191,
+    "amount_transacted": 5500000
+   }
+  ],
+  "share_percentage_before": 9.47,
+  "share_percentage_after": 9.93,
+  "share_percentage_transaction": 0.46,
+  "idx_investor_slug": "verah-wahyudi-s-wong",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Nicholas Santoso buys shares of Charnic Capital",
+  "body": "This is Nicholas Santoso's 8th insider purchase in the last 6 months, totaling an accumulation of 210,000 shares transacted at an average price of IDR 1,744. Nicholas Santoso's ownership in Charnic Capital has increased from 0.03% to 0.04% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-03092026-2369-00.pdf-0.pdf",
+  "timestamp": "2026-09-03T14:19:14",
+  "sector": "financials",
+  "sub_sector": "holding-investment-companies",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "NICK.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Nicholas Santoso",
+  "holding_before": 183400,
+  "holding_after": 291600,
+  "amount_transaction": 108200,
+  "price": 1879.658,
+  "transaction_value": 203379000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 1880,
+    "amount_transacted": 100800
+   },
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 1875,
+    "amount_transacted": 7400
+   }
+  ],
+  "share_percentage_before": 0.03,
+  "share_percentage_after": 0.04,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Verah Wahyudi S Wong buys shares of Lancartama Sejati",
+  "body": "This is Verah Wahyudi S Wong's 5th insider purchase in the last 6 months, totaling an accumulation of 39,229,200 shares transacted at an average price of IDR 177. Verah Wahyudi S Wong's ownership in Lancartama Sejati has increased from 9.39% to 9.47% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-03092026-7662-00.pdf-0.pdf",
+  "timestamp": "2026-09-03T10:38:16",
+  "sector": "infrastructures",
+  "sub_sector": "heavy-constructions-civil-engineering",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TAMA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Verah Wahyudi S Wong",
+  "holding_before": 112636500,
+  "holding_after": 113636500,
+  "amount_transaction": 1000000,
+  "price": 200.0,
+  "transaction_value": 200000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 200,
+    "amount_transacted": 1000000
+   }
+  ],
+  "share_percentage_before": 9.39,
+  "share_percentage_after": 9.47,
+  "share_percentage_transaction": 0.08,
+  "idx_investor_slug": "verah-wahyudi-s-wong",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Noel Aelyo Laras Kusuma Negara buys shares of Dharma Polimetal",
+  "body": "This is Noel Aelyo Laras Kusuma Negara's 5th insider purchase in the last 6 months, totaling an accumulation of 10,673,000 shares transacted at an average price of IDR 835. Noel Aelyo Laras Kusuma Negara's ownership in Dharma Polimetal has increased from 1.68% to 1.69% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-03092026-9597-00.pdf-0.pdf",
+  "timestamp": "2026-09-03T09:18:24",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "automobiles-components",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "DRMA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Noel Aelyo Laras Kusuma Negara",
+  "holding_before": 79050000,
+  "holding_after": 79570000,
+  "amount_transaction": 520000,
+  "price": 1025.0,
+  "transaction_value": 533000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 1025,
+    "amount_transacted": 520000
+   }
+  ],
+  "share_percentage_before": 1.68,
+  "share_percentage_after": 1.69,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Sarana Meditama Metropolitan buys shares of Nitrasanata Dharma",
+  "body": "This is Sarana Meditama Metropolitan's 7th insider purchase in the last 6 months, totaling an accumulation of 170,721,300 shares transacted at an average price of IDR 1,438. Sarana Meditama Metropolitan's ownership in Nitrasanata Dharma has increased from 31.78% to 32.15% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02092026-0218-00.pdf-0.pdf",
+  "timestamp": "2026-09-02T19:57:08",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "JECX.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Sarana Meditama Metropolitan",
+  "holding_before": 1033911000,
+  "holding_after": 1045854800,
+  "amount_transaction": 11943800,
+  "price": 1468.0,
+  "transaction_value": 17533498400.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 1468,
+    "amount_transacted": 11943800
+   }
+  ],
+  "share_percentage_before": 31.78,
+  "share_percentage_after": 32.15,
+  "share_percentage_transaction": 0.37,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "M+G Investment Funds (7) - M+G Global Emerging Markets Fund buys shares of Jasa Marga",
+  "body": "M+G Investment Funds (7) - M+G Global Emerging Markets Fund bought 3,258,700 shares of Jasa Marga. This increases their holdings from 362,426,800 to 365,685,500 shares. The stated purpose of the transaction was purchase of shares.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02092026-8460-00.pdf-0.pdf",
+  "timestamp": "2026-09-02T19:25:26",
+  "sector": "infrastructures",
+  "sub_sector": "transportation-infrastructure",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "JSMR.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "M+G Investment Funds (7) - M+G Global Emerging Markets Fund",
+  "holding_before": 362426800,
+  "holding_after": 365685500,
+  "amount_transaction": 3258700,
+  "price": 2922.32,
+  "transaction_value": 9522965100.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 2931,
+    "amount_transacted": 2426800
+   },
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 2897,
+    "amount_transacted": 831900
+   }
+  ],
+  "share_percentage_before": 4.99,
+  "share_percentage_after": 5.04,
+  "share_percentage_transaction": 0.05,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Tjoea Aubintoro buys shares of Cahayasakti Investindo Sukses",
+  "body": "This is Tjoea Aubintoro's 22nd insider purchase in the last 6 months, totaling an accumulation of 7,357,800 shares transacted at an average price of IDR 166. Tjoea Aubintoro's ownership in Cahayasakti Investindo Sukses has increased from 0.48% to 0.49% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02092026-8696-00.pdf-0.pdf",
+  "timestamp": "2026-09-02T17:38:47",
+  "sector": "properties-real-estate",
+  "sub_sector": "properties-real-estate",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "CSIS.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Tjoea Aubintoro",
+  "holding_before": 8814300,
+  "holding_after": 8883100,
+  "amount_transaction": 68800,
+  "price": 216.0,
+  "transaction_value": 14860800.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-02",
+    "type": "buy",
+    "price": 216,
+    "amount_transacted": 68800
+   }
+  ],
+  "share_percentage_before": 0.48,
+  "share_percentage_after": 0.49,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Cakra Bhakti Para Putra buys shares of Steel Pipe Industry of Indonesia",
+  "body": "This is Cakra Bhakti Para Putra's 4th insider purchase in the last 6 months, totaling an accumulation of 947,400 shares transacted at an average price of IDR 410. Cakra Bhakti Para Putra's ownership in Steel Pipe Industry of Indonesia has increased from 57.67% to 57.68% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02092026-8008-00.pdf-0.pdf",
+  "timestamp": "2026-09-02T16:15:22",
+  "sector": "basic-materials",
+  "sub_sector": "basic-materials",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "ISSP.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Cakra Bhakti Para Putra",
+  "holding_before": 4143993930,
+  "holding_after": 4144751330,
+  "amount_transaction": 757400,
+  "price": 414.396,
+  "transaction_value": 313863600.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 414,
+    "amount_transacted": 732400
+   },
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 426,
+    "amount_transacted": 25000
+   }
+  ],
+  "share_percentage_before": 57.67,
+  "share_percentage_after": 57.68,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Mondial Investama Indonesia buys shares of Dyandra Media International",
+  "body": "Mondial Investama Indonesia bought 56,522,000 shares of Dyandra Media International. This increases their holdings from 225,104,964 to 281,626,964 shares. The stated purpose of the transaction was long-term investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02092026-8379-00.pdf-0.pdf",
+  "timestamp": "2026-09-02T11:47:48",
+  "sector": "industrials",
+  "sub_sector": "industrial-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "DYAN.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Mondial Investama Indonesia",
+  "holding_before": 225104964,
+  "holding_after": 281626964,
+  "amount_transaction": 56522000,
+  "price": 230.0,
+  "transaction_value": 13000060000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 230,
+    "amount_transacted": 56522000
+   }
+  ],
+  "share_percentage_before": 5.27,
+  "share_percentage_after": 6.59,
+  "share_percentage_transaction": 1.32,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Teguh Iman Loka Sasongko buys shares of Informasi Teknologi Indonesia",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Teguh Iman Loka Sasongko's insider purchase comes after Erik Rivai Ridzal and Jusuf Sjariffudin in Informasi Teknologi Indonesia, totaling an accumulation of 190,201 shares transacted at an average price of IDR 98.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02092026-8602-00.pdf-0.pdf",
+  "timestamp": "2026-09-02T09:50:17",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "JATI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Teguh Iman Loka Sasongko",
+  "holding_before": 0,
+  "holding_after": 1,
+  "amount_transaction": 1,
+  "price": 119.0,
+  "transaction_value": 119.0,
+  "price_transaction": [
+   {
+    "date": "2025-04-14",
+    "type": "buy",
+    "price": 119,
+    "amount_transacted": 1
+   }
+  ],
+  "share_percentage_before": 0.0,
+  "share_percentage_after": 0.0,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Nicholas Santoso buys shares of Charnic Capital",
+  "body": "This is Nicholas Santoso's 7th insider purchase in the last 6 months, totaling an accumulation of 101,800 shares transacted at an average price of IDR 1,599. Nicholas Santoso's ownership in Charnic Capital has decreased from 0.03% to 0.03% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02092026-0938-00.pdf-0.pdf",
+  "timestamp": "2026-09-02T08:33:19",
+  "sector": "financials",
+  "sub_sector": "holding-investment-companies",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "NICK.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Nicholas Santoso",
+  "holding_before": 167200,
+  "holding_after": 182900,
+  "amount_transaction": 15700,
+  "price": 1886.592,
+  "transaction_value": 29619500.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 1890,
+    "amount_transacted": 3100
+   },
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 1875,
+    "amount_transacted": 9600
+   },
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 1925,
+    "amount_transacted": 1100
+   },
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 1920,
+    "amount_transacted": 1400
+   },
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 1910,
+    "amount_transacted": 500
+   }
+  ],
+  "share_percentage_before": 0.03,
+  "share_percentage_after": 0.03,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Nusantara Sawit Sejahtera",
+  "body": "This is Samuel Sekuritas Indonesia's 21st insider purchase in the last 6 months, totaling an accumulation of 7,396,313,000 shares transacted at an average price of IDR 749. Samuel Sekuritas Indonesia's ownership in Nusantara Sawit Sejahtera has increased from 23.86% to 25.15% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01092026-9223-00.pdf-0.pdf",
+  "timestamp": "2026-09-01T19:08:47",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "placement",
+   "repurchase-agreement"
+  ],
+  "symbol": "NSSS.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 5678143200,
+  "holding_after": 5986413000,
+  "amount_transaction": 308269800,
+  "price": 820.0,
+  "transaction_value": 252781236000.0,
+  "price_transaction": [
+   {
+    "date": "2026-09-01",
+    "type": "buy",
+    "price": 820,
+    "amount_transacted": 308269800
+   }
+  ],
+  "share_percentage_before": 23.86,
+  "share_percentage_after": 25.15,
+  "share_percentage_transaction": 1.29,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Tunggal Jaya Investama buys shares of Impack Pratama Industri",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Tunggal Jaya Investama's insider purchase comes after Harimas Tunggal Perkasa, Haryanto Tjiptodihardjo, Impack Pratama Industri and Phillip Tjipto in Impack Pratama Industri, totaling an accumulation of 2,322,582,257 shares transacted at an average price of IDR 1,352.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01092026-2086-00.pdf-0.pdf",
+  "timestamp": "2026-09-01T18:14:04",
+  "sector": "industrials",
+  "sub_sector": "industrial-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "IMPC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Tunggal Jaya Investama",
+  "holding_before": 21072312894,
+  "holding_after": 21076743394,
+  "amount_transaction": 4430500,
+  "price": 1377.617,
+  "transaction_value": 6103531500.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 1363,
+    "amount_transacted": 1192500
+   },
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 1383,
+    "amount_transacted": 3238000
+   }
+  ],
+  "share_percentage_before": 38.38,
+  "share_percentage_after": 38.39,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Patrick Rudolf Dannacher buys shares of ITSEC Asia",
+  "body": "This is Patrick Rudolf Dannacher's 38th insider purchase in the last 6 months, totaling an accumulation of 100,212,200 shares transacted at an average price of IDR 694. Patrick Rudolf Dannacher's ownership in ITSEC Asia has increased from 0.667% to 0.677% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01092026-4393-00.pdf-0.pdf",
+  "timestamp": "2026-09-01T18:11:37",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "CYBR.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Patrick Rudolf Dannacher",
+  "holding_before": 89997600,
+  "holding_after": 91270100,
+  "amount_transaction": 1272500,
+  "price": 529.613,
+  "transaction_value": 673932000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 525,
+    "amount_transacted": 100000
+   },
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 1400
+   },
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 530,
+    "amount_transacted": 1171100
+   }
+  ],
+  "share_percentage_before": 0.667,
+  "share_percentage_after": 0.677,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Siwie Honoris buys shares of Multi Indocitra",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Siwie Honoris's insider purchase comes after Anthony Honoris and Buana Graha Utama in Multi Indocitra, totaling an accumulation of 2,858,800 shares transacted at an average price of IDR 516.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01092026-5096-00.pdf-0.pdf",
+  "timestamp": "2026-09-01T17:04:33",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "household-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "MICE.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Siwie Honoris",
+  "holding_before": 969200,
+  "holding_after": 1028900,
+  "amount_transaction": 59700,
+  "price": 530.0,
+  "transaction_value": 31641000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-27",
+    "type": "buy",
+    "price": 530,
+    "amount_transacted": 59700
+   }
+  ],
+  "share_percentage_before": 0.162,
+  "share_percentage_after": 0.172,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Buana Graha Utama buys shares of Multi Indocitra",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Buana Graha Utama's insider purchase comes after Anthony Honoris and Siwie Honoris in Multi Indocitra, totaling an accumulation of 2,799,100 shares transacted at an average price of IDR 516.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01092026-8131-00.pdf-0.pdf",
+  "timestamp": "2026-09-01T16:55:55",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "household-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "MICE.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Buana Graha Utama",
+  "holding_before": 290573518,
+  "holding_after": 291578518,
+  "amount_transaction": 1005000,
+  "price": 522.164,
+  "transaction_value": 524775000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 520,
+    "amount_transacted": 810000
+   },
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 95000
+   },
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 530,
+    "amount_transacted": 50000
+   },
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 525,
+    "amount_transacted": 50000
+   }
+  ],
+  "share_percentage_before": 48.429,
+  "share_percentage_after": 48.596,
+  "share_percentage_transaction": 0.167,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Hasmoro buys shares of Medikaloka Hermina",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Hasmoro's insider purchase comes after Yulisar Khiat and Yustinus Immanuel Herawan in Medikaloka Hermina, totaling an accumulation of 25,895,400 shares transacted at an average price of IDR 875.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01092026-5174-00.pdf-0.pdf",
+  "timestamp": "2026-09-01T14:42:35",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "HEAL.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Hasmoro",
+  "holding_before": 774672689,
+  "holding_after": 775441989,
+  "amount_transaction": 769300,
+  "price": 645.0,
+  "transaction_value": 496198500.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 645,
+    "amount_transacted": 769300
+   }
+  ],
+  "share_percentage_before": 5.04,
+  "share_percentage_after": 5.05,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Yustinus Immanuel Herawan buys shares of Medikaloka Hermina",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Yustinus Immanuel Herawan's insider purchase comes after Hasmoro and Yulisar Khiat in Medikaloka Hermina, totaling an accumulation of 25,126,100 shares transacted at an average price of IDR 882.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01092026-6338-00.pdf-0.pdf",
+  "timestamp": "2026-09-01T14:18:40",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "HEAL.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Yustinus Immanuel Herawan",
+  "holding_before": 190000,
+  "holding_after": 260000,
+  "amount_transaction": 70000,
+  "price": 650.0,
+  "transaction_value": 45500000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 650,
+    "amount_transacted": 70000
+   }
+  ],
+  "share_percentage_before": 0.001,
+  "share_percentage_after": 0.002,
+  "share_percentage_transaction": 0.001,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Nicholas Santoso buys shares of Charnic Capital",
+  "body": "This is Nicholas Santoso's 6th insider purchase in the last 6 months, totaling an accumulation of 86,100 shares transacted at an average price of IDR 1,547. Nicholas Santoso's ownership in Charnic Capital has decreased from 0.03% to 0.03% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01092026-8969-00.pdf-0.pdf",
+  "timestamp": "2026-09-01T08:49:08",
+  "sector": "financials",
+  "sub_sector": "holding-investment-companies",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "NICK.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Nicholas Santoso",
+  "holding_before": 166500,
+  "holding_after": 167200,
+  "amount_transaction": 700,
+  "price": 1905.0,
+  "transaction_value": 1333500.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 1910,
+    "amount_transacted": 600
+   },
+   {
+    "date": "2026-08-31",
+    "type": "buy",
+    "price": 1875,
+    "amount_transacted": 100
+   }
+  ],
+  "share_percentage_before": 0.03,
+  "share_percentage_after": 0.03,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Sarana Meditama Metropolitan buys shares of Nitrasanata Dharma",
+  "body": "This is Sarana Meditama Metropolitan's 6th insider purchase in the last 6 months, totaling an accumulation of 158,777,500 shares transacted at an average price of IDR 1,436. Sarana Meditama Metropolitan's ownership in Nitrasanata Dharma has increased from 30.95% to 31.34% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-31082026-8191-00.pdf-0.pdf",
+  "timestamp": "2026-08-31T18:17:55",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "JECX.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Sarana Meditama Metropolitan",
+  "holding_before": 1006931500,
+  "holding_after": 1019701900,
+  "amount_transaction": 12770400,
+  "price": 1350.0,
+  "transaction_value": 17240040000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-27",
+    "type": "buy",
+    "price": 1350,
+    "amount_transacted": 12770400
+   }
+  ],
+  "share_percentage_before": 30.95,
+  "share_percentage_after": 31.34,
+  "share_percentage_transaction": 0.39,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Ritsuo Fukadai buys shares of Bank JTrust Indonesia",
+  "body": "This is Ritsuo Fukadai's 6th insider purchase in the last 6 months, totaling an accumulation of 22,900 shares transacted at an average price of IDR 128. Ritsuo Fukadai's ownership in Bank JTrust Indonesia has decreased from 0.001% to 0.001% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-31082026-2178-00.pdf-0.pdf",
+  "timestamp": "2026-08-31T16:52:42",
+  "sector": "financials",
+  "sub_sector": "banks",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BCIC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Ritsuo Fukadai",
+  "holding_before": 154300,
+  "holding_after": 157900,
+  "amount_transaction": 3600,
+  "price": 130.0,
+  "transaction_value": 468000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 130,
+    "amount_transacted": 3600
+   }
+  ],
+  "share_percentage_before": 0.001,
+  "share_percentage_after": 0.001,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Helmi Arif Hidayat buys shares of Bank JTrust Indonesia",
+  "body": "This is Helmi Arif Hidayat's 6th insider purchase in the last 6 months, totaling an accumulation of 472,100 shares transacted at an average price of IDR 127. Helmi Arif Hidayat's ownership in Bank JTrust Indonesia has decreased from 0.018% to 0.018% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-31082026-4638-00.pdf-0.pdf",
+  "timestamp": "2026-08-31T16:50:27",
+  "sector": "financials",
+  "sub_sector": "banks",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BCIC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Helmi Arif Hidayat",
+  "holding_before": 3237500,
+  "holding_after": 3314100,
+  "amount_transaction": 76600,
+  "price": 130.0,
+  "transaction_value": 9958000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 130,
+    "amount_transacted": 76600
+   }
+  ],
+  "share_percentage_before": 0.018,
+  "share_percentage_after": 0.018,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Felix Istyono Hartadi T, Sh buys shares of Bank JTrust Indonesia",
+  "body": "This is Felix Istyono Hartadi T, Sh's 6th insider purchase in the last 6 months, totaling an accumulation of 234,100 shares transacted at an average price of IDR 128. Felix Istyono Hartadi T, Sh's ownership in Bank JTrust Indonesia has decreased from 0.009% to 0.009% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-31082026-8596-00.pdf-0.pdf",
+  "timestamp": "2026-08-31T16:46:00",
+  "sector": "financials",
+  "sub_sector": "banks",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BCIC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Felix Istyono Hartadi T, Sh",
+  "holding_before": 1581300,
+  "holding_after": 1619500,
+  "amount_transaction": 38200,
+  "price": 130.0,
+  "transaction_value": 4966000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 130,
+    "amount_transacted": 38200
+   }
+  ],
+  "share_percentage_before": 0.009,
+  "share_percentage_after": 0.009,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Patrick Rudolf Dannacher buys shares of ITSEC Asia",
+  "body": "This is Patrick Rudolf Dannacher's 38th insider purchase in the last 6 months, totaling an accumulation of 99,326,900 shares transacted at an average price of IDR 699. Patrick Rudolf Dannacher's ownership in ITSEC Asia has increased from 0.652% to 0.667% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-31082026-6619-00.pdf-0.pdf",
+  "timestamp": "2026-08-31T14:57:08",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "CYBR.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Patrick Rudolf Dannacher",
+  "holding_before": 87897500,
+  "holding_after": 89997600,
+  "amount_transaction": 2100100,
+  "price": 536.11,
+  "transaction_value": 1125884000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 665600
+   },
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 540,
+    "amount_transacted": 142900
+   },
+   {
+    "date": "2026-08-27",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 155100
+   },
+   {
+    "date": "2026-08-27",
+    "type": "buy",
+    "price": 540,
+    "amount_transacted": 2000
+   },
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 530,
+    "amount_transacted": 37100
+   },
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 535,
+    "amount_transacted": 739400
+   },
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 540,
+    "amount_transacted": 357700
+   },
+   {
+    "date": "2026-08-28",
+    "type": "buy",
+    "price": 545,
+    "amount_transacted": 300
+   }
+  ],
+  "share_percentage_before": 0.652,
+  "share_percentage_after": 0.667,
+  "share_percentage_transaction": 0.015,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Hansen Jap buys shares of Maja Agung Latexindo",
+  "body": "Hansen Jap bought 3,141,900 shares of Maja Agung Latexindo. This increases their holdings from 5,447,375,200 to 5,450,517,100 shares. The stated purpose of the transaction was purchase of shares.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-31082026-7096-00.pdf-0.pdf",
+  "timestamp": "2026-08-31T14:52:46",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "SURI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Hansen Jap",
+  "holding_before": 5447375200,
+  "holding_after": 5450517100,
+  "amount_transaction": 3141900,
+  "price": 80.0,
+  "transaction_value": 251353500.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 81,
+    "amount_transacted": 1500
+   },
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 80,
+    "amount_transacted": 3140400
+   }
+  ],
+  "share_percentage_before": 85.99,
+  "share_percentage_after": 86.05,
+  "share_percentage_transaction": 0.06,
+  "idx_investor_slug": "hansen-jap",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Bank Of Singapore buys shares of Intiland Development",
+  "body": "Bank Of Singapore bought 500,000 shares of Intiland Development. This increases their holdings from 518,152,900 to 518,652,900 shares. The stated purpose of the transaction was purchase.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-31082026-2499-00.pdf-0.pdf",
+  "timestamp": "2026-08-31T14:50:32",
+  "sector": "properties-real-estate",
+  "sub_sector": "properties-real-estate",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "DILD.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Bank Of Singapore",
+  "holding_before": 518152900,
+  "holding_after": 518652900,
+  "amount_transaction": 500000,
+  "price": 119.0,
+  "transaction_value": 59500000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 119,
+    "amount_transacted": 500000
+   }
+  ],
+  "share_percentage_before": 4.999,
+  "share_percentage_after": 5.003,
+  "share_percentage_transaction": 0.004,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Inti Global Resources Indonesia buys shares of Anabatic Technologies",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Inti Global Resources Indonesia's insider purchase comes after Lie David Limina, Harry Surjanto Hambali and Adriansyah Adnan in Anabatic Technologies, totaling an accumulation of 75,865,424 shares transacted at an average price of IDR 500.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-28082026-5483-00.pdf-0.pdf",
+  "timestamp": "2026-08-28T10:48:13",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "ATIC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Inti Global Resources Indonesia",
+  "holding_before": 162271261,
+  "holding_after": 162383761,
+  "amount_transaction": 103000,
+  "price": 485.14,
+  "transaction_value": 49969400.0,
+  "price_transaction": [
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 476,
+    "amount_transacted": 2000
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 478,
+    "amount_transacted": 38800
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 480,
+    "amount_transacted": 2800
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 482,
+    "amount_transacted": 5100
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 486,
+    "amount_transacted": 22700
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 500,
+    "amount_transacted": 16200
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 490,
+    "amount_transacted": 4000
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 492,
+    "amount_transacted": 400
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 494,
+    "amount_transacted": 300
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 498,
+    "amount_transacted": 1000
+   },
+   {
+    "date": "2026-07-29",
+    "type": "buy",
+    "price": 488,
+    "amount_transacted": 9700
+   }
+  ],
+  "share_percentage_before": 5.61,
+  "share_percentage_after": 5.611,
+  "share_percentage_transaction": 0.001,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Kiky Suherlan buys shares of Trisula International",
+  "body": "Kiky Suherlan bought 350,000,000 shares of Trisula International. This increases their holdings from 507,072,000 to 857,072,000 shares. The stated purpose of the transaction was settlement of dividend payable acknowledgment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-27082026-2058-00.pdf-0.pdf",
+  "timestamp": "2026-08-27T19:09:53",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "apparel-luxury-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TRIS.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Kiky Suherlan",
+  "holding_before": 507072000,
+  "holding_after": 857072000,
+  "amount_transaction": 350000000,
+  "price": 175.0,
+  "transaction_value": 61250000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-27",
+    "type": "buy",
+    "price": 175,
+    "amount_transacted": 350000000
+   }
+  ],
+  "share_percentage_before": 16.14,
+  "share_percentage_after": 27.28,
+  "share_percentage_transaction": 11.14,
+  "idx_investor_slug": "kiky-suherlan",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Dedie Suherlan buys shares of Trisula International",
+  "body": "Dedie Suherlan bought 350,000,000 shares of Trisula International. This increases their holdings from 507,072,000 to 857,072,000 shares. The stated purpose of the transaction was settlement of dividend payable acknowledgment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-27082026-6215-00.pdf-0.pdf",
+  "timestamp": "2026-08-27T19:04:35",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "apparel-luxury-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TRIS.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Dedie Suherlan",
+  "holding_before": 507072000,
+  "holding_after": 857072000,
+  "amount_transaction": 350000000,
+  "price": 175.0,
+  "transaction_value": 61250000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-27",
+    "type": "buy",
+    "price": 175,
+    "amount_transacted": 350000000
+   }
+  ],
+  "share_percentage_before": 16.14,
+  "share_percentage_after": 27.28,
+  "share_percentage_transaction": 11.14,
+  "idx_investor_slug": "dedie-suherlan",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Nusantara Sawit Sejahtera",
+  "body": "This is Samuel Sekuritas Indonesia's 20th insider purchase in the last 6 months, totaling an accumulation of 7,088,043,200 shares transacted at an average price of IDR 746. Samuel Sekuritas Indonesia's ownership in Nusantara Sawit Sejahtera has increased from 22.97% to 23.86% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-27082026-5751-00.pdf-0.pdf",
+  "timestamp": "2026-08-27T16:18:41",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "placement",
+   "repurchase-agreement"
+  ],
+  "symbol": "NSSS.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 5468246800,
+  "holding_after": 5678143200,
+  "amount_transaction": 209896400,
+  "price": 795.0,
+  "transaction_value": 166867638000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-27",
+    "type": "buy",
+    "price": 795,
+    "amount_transacted": 209896400
+   }
+  ],
+  "share_percentage_before": 22.97,
+  "share_percentage_after": 23.86,
+  "share_percentage_transaction": 0.89,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Abadi Lestari Indonesia",
+  "body": "This is Samuel Sekuritas Indonesia's 10th insider purchase in the last 6 months, totaling an accumulation of 1,919,151,300 shares transacted at an average price of IDR 616. Samuel Sekuritas Indonesia's ownership in Abadi Lestari Indonesia has increased from 6.05% to 6.36% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-27082026-4428-00.pdf-0.pdf",
+  "timestamp": "2026-08-27T16:09:23",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "placement",
+   "repurchase-agreement"
+  ],
+  "symbol": "RLCO.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 189064500,
+  "holding_after": 198644500,
+  "amount_transaction": 9580000,
+  "price": 4050.0,
+  "transaction_value": 38799000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-27",
+    "type": "buy",
+    "price": 4050,
+    "amount_transacted": 9580000
+   }
+  ],
+  "share_percentage_before": 6.05,
+  "share_percentage_after": 6.36,
+  "share_percentage_transaction": 0.31,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Drs. Hendro Martowardojo buys shares of Resource Alam Indonesia",
+  "body": "Drs. Hendro Martowardojo bought 300,000 shares of Resource Alam Indonesia. This increases their holdings from 5,214,528 to 5,514,528 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-27082026-3031-00.pdf-0.pdf",
+  "timestamp": "2026-08-27T13:01:36",
+  "sector": "energy",
+  "sub_sector": "oil-gas-coal",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "KKGI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Drs. Hendro Martowardojo",
+  "holding_before": 5214528,
+  "holding_after": 5514528,
+  "amount_transaction": 300000,
+  "price": 288.0,
+  "transaction_value": 86400000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 288,
+    "amount_transacted": 300000
+   }
+  ],
+  "share_percentage_before": 0.1,
+  "share_percentage_after": 0.11,
+  "share_percentage_transaction": 0.01,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Buana Graha Utama buys shares of Multi Indocitra",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Buana Graha Utama's insider purchase comes after Anthony Honoris and Siwie Honoris in Multi Indocitra, totaling an accumulation of 1,794,100 shares transacted at an average price of IDR 512.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-27082026-0235-00.pdf-0.pdf",
+  "timestamp": "2026-08-27T10:42:33",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "household-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "MICE.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Buana Graha Utama",
+  "holding_before": 290533318,
+  "holding_after": 290573518,
+  "amount_transaction": 40200,
+  "price": 525.0,
+  "transaction_value": 21105000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-24",
+    "type": "buy",
+    "price": 525,
+    "amount_transacted": 40200
+   }
+  ],
+  "share_percentage_before": 48.422,
+  "share_percentage_after": 48.429,
+  "share_percentage_transaction": 0.007,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Hp Capital Resources buys shares of Lima Dua Lima Tiga",
+  "body": "Hp Capital Resources bought 227,216,084 shares of Lima Dua Lima Tiga. This increases their holdings from 112,701,800 to 339,917,884 shares. The stated purpose of the transaction was capital gain.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-27082026-8598-00.pdf-0.pdf",
+  "timestamp": "2026-08-27T09:49:15",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "consumer-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "LUCY.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Hp Capital Resources",
+  "holding_before": 112701800,
+  "holding_after": 339917884,
+  "amount_transaction": 227216084,
+  "price": 300.0,
+  "transaction_value": 68164825200.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-24",
+    "type": "buy",
+    "price": 300,
+    "amount_transacted": 227216084
+   }
+  ],
+  "share_percentage_before": 7.44,
+  "share_percentage_after": 22.44,
+  "share_percentage_transaction": 15.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Verah Wahyudi S Wong buys shares of Lancartama Sejati",
+  "body": "This is Verah Wahyudi S Wong's 4th insider purchase in the last 6 months, totaling an accumulation of 38,229,200 shares transacted at an average price of IDR 177. Verah Wahyudi S Wong's ownership in Lancartama Sejati has increased from 8.92% to 9.39% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-27082026-9824-00.pdf-0.pdf",
+  "timestamp": "2026-08-27T09:03:01",
+  "sector": "infrastructures",
+  "sub_sector": "heavy-constructions-civil-engineering",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TAMA.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Verah Wahyudi S Wong",
+  "holding_before": 107036500,
+  "holding_after": 112636500,
+  "amount_transaction": 5600000,
+  "price": 224.0,
+  "transaction_value": 1254400000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 224,
+    "amount_transacted": 5600000
+   }
+  ],
+  "share_percentage_before": 8.92,
+  "share_percentage_after": 9.39,
+  "share_percentage_transaction": 0.47,
+  "idx_investor_slug": "verah-wahyudi-s-wong",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Tunggal Jaya Investama buys shares of Impack Pratama Industri",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Tunggal Jaya Investama's insider purchase comes after Harimas Tunggal Perkasa, Haryanto Tjiptodihardjo, Impack Pratama Industri and Phillip Tjipto in Impack Pratama Industri, totaling an accumulation of 2,318,151,757 shares transacted at an average price of IDR 1,352.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-26082026-3022-00.pdf-0.pdf",
+  "timestamp": "2026-08-26T18:16:51",
+  "sector": "industrials",
+  "sub_sector": "industrial-goods",
+  "tags": [
+   "repurchase-agreement"
+  ],
+  "symbol": "IMPC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Tunggal Jaya Investama",
+  "holding_before": 20390836994,
+  "holding_after": 21060836994,
+  "amount_transaction": 670000000,
+  "price": 1515.0,
+  "transaction_value": 1015050000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-24",
+    "type": "buy",
+    "price": 1515,
+    "amount_transacted": 670000000
+   }
+  ],
+  "share_percentage_before": 37.14,
+  "share_percentage_after": 38.36,
+  "share_percentage_transaction": 1.22,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Morgan Stanley And Co International Plc buys shares of GoTo Gojek Tokopedia",
+  "body": "Morgan Stanley And Co International Plc's acquisition of GOTO shares is the latest in a series of investments, with the firm adding to their position across 2 companies in the last 6 months. Alongside GOTO, the firm has also acquired shares of AMRT, totaling IDR 278,373,574,656 across all purchases in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-26082026-1699-00.pdf-0.pdf",
+  "timestamp": "2026-08-26T17:26:48",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "GOTO.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Morgan Stanley And Co International Plc",
+  "holding_before": 55572469938,
+  "holding_after": 58710992438,
+  "amount_transaction": 3138522500,
+  "price": 23.0,
+  "transaction_value": 72186017500.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 23,
+    "amount_transacted": 3138522500
+   }
+  ],
+  "share_percentage_before": 4.827,
+  "share_percentage_after": 5.1,
+  "share_percentage_transaction": 0.273,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Junianto buys shares of Bank China Construction Bank Indonesia",
+  "body": "Junianto bought 500,200 shares of Bank China Construction Bank Indonesia. This increases their holdings from 1,996,923 to 2,497,123 shares. The stated purpose of the transaction was compliance with ojk regulation no. 45/pojk.03/2015.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-26082026-4227-00.pdf-0.pdf",
+  "timestamp": "2026-08-26T11:23:56",
+  "sector": "financials",
+  "sub_sector": "banks",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "MCOR.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Junianto",
+  "holding_before": 1996923,
+  "holding_after": 2497123,
+  "amount_transaction": 500200,
+  "price": 68.0,
+  "transaction_value": 34013600.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-26",
+    "type": "buy",
+    "price": 68,
+    "amount_transacted": 500200
+   }
+  ],
+  "share_percentage_before": 0.0,
+  "share_percentage_after": 0.0,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Patrick Rudolf Dannacher buys shares of ITSEC Asia",
+  "body": "This is Patrick Rudolf Dannacher's 40th insider purchase in the last 6 months, totaling an accumulation of 103,763,600 shares transacted at an average price of IDR 753. Patrick Rudolf Dannacher's ownership in ITSEC Asia has increased from 0.64% to 0.652% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-24082026-3406-00.pdf-0.pdf",
+  "timestamp": "2026-08-24T11:16:10",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "CYBR.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Patrick Rudolf Dannacher",
+  "holding_before": 82274900,
+  "holding_after": 87897500,
+  "amount_transaction": 1622600,
+  "price": 557.701,
+  "transaction_value": 904926000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 555,
+    "amount_transacted": 795300
+   },
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 550,
+    "amount_transacted": 325500
+   },
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 570,
+    "amount_transacted": 300000
+   },
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 565,
+    "amount_transacted": 100300
+   },
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 560,
+    "amount_transacted": 101500
+   }
+  ],
+  "share_percentage_before": 0.64,
+  "share_percentage_after": 0.652,
+  "share_percentage_transaction": 0.012,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Hasmoro buys shares of Medikaloka Hermina",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Hasmoro's insider purchase comes after Yulisar Khiat and Yustinus Immanuel Herawan in Medikaloka Hermina, totaling an accumulation of 25,056,100 shares transacted at an average price of IDR 883.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-24082026-1158-00.pdf-0.pdf",
+  "timestamp": "2026-08-24T10:16:54",
+  "sector": "healthcare",
+  "sub_sector": "healthcare-equipment-providers",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "HEAL.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Hasmoro",
+  "holding_before": 773934989,
+  "holding_after": 774672689,
+  "amount_transaction": 737700,
+  "price": 675.567,
+  "transaction_value": 498366000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 680,
+    "amount_transacted": 65500
+   },
+   {
+    "date": "2026-08-20",
+    "type": "buy",
+    "price": 680,
+    "amount_transacted": 345200
+   },
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 670,
+    "amount_transacted": 327000
+   }
+  ],
+  "share_percentage_before": 5.04,
+  "share_percentage_after": 5.04,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Ferdinand Aryanto buys shares of Kalbe Farma",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Ferdinand Aryanto's insider purchase comes after B. R Irawati Setiady, Sie Djohan, Kartika Setiabudy, Mulialie and 2 other insiders in Kalbe Farma, totaling an accumulation of 625,700 shares transacted at an average price of IDR 870.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-24082026-4295-00.pdf-0.pdf",
+  "timestamp": "2026-08-24T10:05:15",
+  "sector": "healthcare",
+  "sub_sector": "pharmaceuticals-health-care-research",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "KLBF.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Ferdinand Aryanto",
+  "holding_before": 360000,
+  "holding_after": 410000,
+  "amount_transaction": 50000,
+  "price": 810.0,
+  "transaction_value": 40500000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 810,
+    "amount_transacted": 50000
+   }
+  ],
+  "share_percentage_before": 0.001,
+  "share_percentage_after": 0.001,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Buana Graha Utama buys shares of Multi Indocitra",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Buana Graha Utama's insider purchase comes after Anthony Honoris and Siwie Honoris in Multi Indocitra, totaling an accumulation of 1,753,900 shares transacted at an average price of IDR 512.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-23082026-8833-00.pdf-0.pdf",
+  "timestamp": "2026-08-23T01:46:14",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "household-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "MICE.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Buana Graha Utama",
+  "holding_before": 290530018,
+  "holding_after": 290533318,
+  "amount_transaction": 3300,
+  "price": 520.0,
+  "transaction_value": 1716000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 520,
+    "amount_transacted": 3000
+   },
+   {
+    "date": "2026-08-20",
+    "type": "buy",
+    "price": 520,
+    "amount_transacted": 300
+   }
+  ],
+  "share_percentage_before": 48.422,
+  "share_percentage_after": 48.422,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Hartarto Ciputra buys shares of Wahana Inti Makmur",
+  "body": "This is Hartarto Ciputra's 8th insider purchase in the last 6 months, totaling an accumulation of 14,632,300 shares transacted at an average price of IDR 147. Hartarto Ciputra's ownership in Wahana Inti Makmur has increased from 5.81% to 5.87% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-22082026-7519-00.pdf-0.pdf",
+  "timestamp": "2026-08-22T17:45:32",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "NASI.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Hartarto Ciputra",
+  "holding_before": 46885200,
+  "holding_after": 47385200,
+  "amount_transaction": 500000,
+  "price": 140.0,
+  "transaction_value": 70000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 140,
+    "amount_transacted": 500000
+   }
+  ],
+  "share_percentage_before": 5.81,
+  "share_percentage_after": 5.87,
+  "share_percentage_transaction": 0.06,
+  "idx_investor_slug": "hartarto-ciputra",
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Nusantara Sawit Sejahtera",
+  "body": "This is Samuel Sekuritas Indonesia's 19th insider purchase in the last 6 months, totaling an accumulation of 6,878,146,800 shares transacted at an average price of IDR 744. Samuel Sekuritas Indonesia's ownership in Nusantara Sawit Sejahtera has increased from 24.06% to 24.721% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-21082026-5712-00.pdf-0.pdf",
+  "timestamp": "2026-08-21T18:00:35",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "placement",
+   "repurchase-agreement"
+  ],
+  "symbol": "NSSS.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 5725811100,
+  "holding_after": 5883151900,
+  "amount_transaction": 157340800,
+  "price": 850.0,
+  "transaction_value": 133739680000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 850,
+    "amount_transacted": 157340800
+   }
+  ],
+  "share_percentage_before": 24.06,
+  "share_percentage_after": 24.721,
+  "share_percentage_transaction": 0.661,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Samuel Sekuritas Indonesia buys shares of Abadi Lestari Indonesia",
+  "body": "This is Samuel Sekuritas Indonesia's 9th insider purchase in the last 6 months, totaling an accumulation of 1,909,571,300 shares transacted at an average price of IDR 599. Samuel Sekuritas Indonesia's ownership in Abadi Lestari Indonesia has increased from 4.95% to 6.05% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-21082026-5044-00.pdf-0.pdf",
+  "timestamp": "2026-08-21T17:54:04",
+  "sector": "consumer-non-cyclicals",
+  "sub_sector": "food-beverage",
+  "tags": [
+   "repurchase-agreement"
+  ],
+  "symbol": "RLCO.JK",
+  "transaction_type": "buy",
+  "holder_type": "institution",
+  "holder_name": "Samuel Sekuritas Indonesia",
+  "holding_before": 154709300,
+  "holding_after": 189064500,
+  "amount_transaction": 34355200,
+  "price": 4320.938,
+  "transaction_value": 148446672000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 4430,
+    "amount_transacted": 17324000
+   },
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": 4210,
+    "amount_transacted": 17031200
+   }
+  ],
+  "share_percentage_before": 4.95,
+  "share_percentage_after": 6.05,
+  "share_percentage_transaction": 1.1,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Tunggal Jaya Investama buys shares of Impack Pratama Industri",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Tunggal Jaya Investama's insider purchase comes after Harimas Tunggal Perkasa, Haryanto Tjiptodihardjo, Impack Pratama Industri and Phillip Tjipto in Impack Pratama Industri, totaling an accumulation of 1,648,151,757 shares transacted at an average price of IDR 1,286.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-21082026-4743-00.pdf-0.pdf",
+  "timestamp": "2026-08-21T17:44:55",
+  "sector": "industrials",
+  "sub_sector": "industrial-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "IMPC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Tunggal Jaya Investama",
+  "holding_before": 20382536994,
+  "holding_after": 20390836994,
+  "amount_transaction": 8300000,
+  "price": 1366.819,
+  "transaction_value": 11344600000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 1364,
+    "amount_transacted": 500000
+   },
+   {
+    "date": "2026-08-20",
+    "type": "buy",
+    "price": 1367,
+    "amount_transacted": 7800000
+   }
+  ],
+  "share_percentage_before": 37.12,
+  "share_percentage_after": 37.14,
+  "share_percentage_transaction": 0.02,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Patrick Rudolf Dannacher buys shares of ITSEC Asia",
+  "body": "This is Patrick Rudolf Dannacher's 40th insider purchase in the last 6 months, totaling an accumulation of 103,323,600 shares transacted at an average price of IDR 765. Patrick Rudolf Dannacher's ownership in ITSEC Asia has increased from 0.606% to 0.64% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-21082026-8719-00.pdf-0.pdf",
+  "timestamp": "2026-08-21T15:35:44",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "CYBR.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Patrick Rudolf Dannacher",
+  "holding_before": 81700400,
+  "holding_after": 86274900,
+  "amount_transaction": 4574500,
+  "price": 561.928,
+  "transaction_value": 2570539500.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-11",
+    "type": "buy",
+    "price": 590,
+    "amount_transacted": 400
+   },
+   {
+    "date": "2026-08-12",
+    "type": "buy",
+    "price": 575,
+    "amount_transacted": 500400
+   },
+   {
+    "date": "2026-08-12",
+    "type": "buy",
+    "price": 590,
+    "amount_transacted": 1800
+   },
+   {
+    "date": "2026-08-12",
+    "type": "buy",
+    "price": 595,
+    "amount_transacted": 300
+   },
+   {
+    "date": "2026-08-12",
+    "type": "buy",
+    "price": 570,
+    "amount_transacted": 308200
+   },
+   {
+    "date": "2026-08-12",
+    "type": "buy",
+    "price": 585,
+    "amount_transacted": 407500
+   },
+   {
+    "date": "2026-08-12",
+    "type": "buy",
+    "price": 580,
+    "amount_transacted": 452400
+   },
+   {
+    "date": "2026-08-14",
+    "type": "buy",
+    "price": 565,
+    "amount_transacted": 252300
+   },
+   {
+    "date": "2026-08-14",
+    "type": "buy",
+    "price": 570,
+    "amount_transacted": 600
+   },
+   {
+    "date": "2026-08-14",
+    "type": "buy",
+    "price": 560,
+    "amount_transacted": 177400
+   },
+   {
+    "date": "2026-08-14",
+    "type": "buy",
+    "price": 575,
+    "amount_transacted": 300
+   },
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 560,
+    "amount_transacted": 1000
+   },
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 555,
+    "amount_transacted": 424100
+   },
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 545,
+    "amount_transacted": 600100
+   },
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 550,
+    "amount_transacted": 500200
+   },
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 550,
+    "amount_transacted": 300100
+   },
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 570,
+    "amount_transacted": 100
+   },
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 560,
+    "amount_transacted": 600
+   },
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 565,
+    "amount_transacted": 500
+   },
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 555,
+    "amount_transacted": 646200
+   }
+  ],
+  "share_percentage_before": 0.606,
+  "share_percentage_after": 0.64,
+  "share_percentage_transaction": 0.034,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Yeni Isnawati buys shares of Bersama Mencapai Puncak",
+  "body": "Yeni Isnawati bought 5,000,000 shares of Bersama Mencapai Puncak. This increases their holdings from 3,420,000 to 8,420,000 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-21082026-9817-00.pdf-0.pdf",
+  "timestamp": "2026-08-21T14:36:16",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "consumer-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "BAIK.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Yeni Isnawati",
+  "holding_before": 3420000,
+  "holding_after": 8420000,
+  "amount_transaction": 5000000,
+  "price": 284.0,
+  "transaction_value": 1420000000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 284,
+    "amount_transacted": 5000000
+   }
+  ],
+  "share_percentage_before": 0.29,
+  "share_percentage_after": 0.75,
+  "share_percentage_transaction": 0.46,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Bogamulia Nagadi buys shares of Tempo Scan Pacific",
+  "body": "Bogamulia Nagadi bought 2,114,200 shares of Tempo Scan Pacific. This increases their holdings from 4,103,789,818 to 4,105,904,018 shares. The stated purpose of the transaction was investment.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-21082026-3277-00.pdf-0.pdf",
+  "timestamp": "2026-08-21T10:41:02",
+  "sector": "healthcare",
+  "sub_sector": "pharmaceuticals-health-care-research",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "TSPC.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Bogamulia Nagadi",
+  "holding_before": 4103789818,
+  "holding_after": 4105904018,
+  "amount_transaction": 2114200,
+  "price": 2752.0,
+  "transaction_value": 5818278400.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-19",
+    "type": "buy",
+    "price": 2752,
+    "amount_transacted": 2114200
+   }
+  ],
+  "share_percentage_before": 90.996,
+  "share_percentage_after": 91.043,
+  "share_percentage_transaction": 0.047,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Sandra Angela buys shares of Cashlez Worldwide Indonesia",
+  "body": "This is Sandra Angela's 10th insider purchase in the last 6 months, totaling an accumulation of 16,213,400 shares transacted at an average price of IDR 169. Sandra Angela's ownership in Cashlez Worldwide Indonesia has increased from 7.95% to 8.07% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-21082026-6924-00.pdf-0.pdf",
+  "timestamp": "2026-08-21T09:59:36",
+  "sector": "technology",
+  "sub_sector": "software-it-services",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "CASH.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Sandra Angela",
+  "holding_before": 193050100,
+  "holding_after": 196037800,
+  "amount_transaction": 2987700,
+  "price": 119.432,
+  "transaction_value": 356825600.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-14",
+    "type": "buy",
+    "price": 204,
+    "amount_transacted": 316400
+   },
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 200,
+    "amount_transacted": 1461400
+   },
+   {
+    "date": "2026-08-21",
+    "type": "buy",
+    "price": null,
+    "amount_transacted": 1209900
+   }
+  ],
+  "share_percentage_before": 7.95,
+  "share_percentage_after": 8.07,
+  "share_percentage_transaction": 0.12,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Nicholas Santoso buys shares of Charnic Capital",
+  "body": "This is Nicholas Santoso's 5th insider purchase in the last 6 months, totaling an accumulation of 85,400 shares transacted at an average price of IDR 1,544. Nicholas Santoso's ownership in Charnic Capital has decreased from 0.03% to 0.03% in this period.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-21082026-1464-00.pdf-0.pdf",
+  "timestamp": "2026-08-21T09:05:28",
+  "sector": "financials",
+  "sub_sector": "holding-investment-companies",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "NICK.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Nicholas Santoso",
+  "holding_before": 166500,
+  "holding_after": 167000,
+  "amount_transaction": 500,
+  "price": 1464.0,
+  "transaction_value": 732000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 1460,
+    "amount_transacted": 200
+   },
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 1470,
+    "amount_transacted": 100
+   },
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 1465,
+    "amount_transacted": 200
+   }
+  ],
+  "share_percentage_before": 0.03,
+  "share_percentage_after": 0.03,
+  "share_percentage_transaction": 0.0,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ },
+ {
+  "title": "Siwie Honoris buys shares of Multi Indocitra",
+  "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Siwie Honoris's insider purchase comes after Anthony Honoris and Buana Graha Utama in Multi Indocitra, totaling an accumulation of 1,750,600 shares transacted at an average price of IDR 512.",
+  "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-20082026-3015-00.pdf-0.pdf",
+  "timestamp": "2026-08-20T19:59:57",
+  "sector": "consumer-cyclicals",
+  "sub_sector": "household-goods",
+  "tags": [
+   "investment"
+  ],
+  "symbol": "MICE.JK",
+  "transaction_type": "buy",
+  "holder_type": "insider",
+  "holder_name": "Siwie Honoris",
+  "holding_before": 949000,
+  "holding_after": 969200,
+  "amount_transaction": 20200,
+  "price": 525.149,
+  "transaction_value": 10608000.0,
+  "price_transaction": [
+   {
+    "date": "2026-08-14",
+    "type": "buy",
+    "price": 540,
+    "amount_transacted": 200
+   },
+   {
+    "date": "2026-08-18",
+    "type": "buy",
+    "price": 525,
+    "amount_transacted": 20000
+   }
+  ],
+  "share_percentage_before": 0.158,
+  "share_percentage_after": 0.162,
+  "share_percentage_transaction": 0.004,
+  "idx_investor_slug": null,
+  "idx_conglomerates_group_slug": null
+ }
+]

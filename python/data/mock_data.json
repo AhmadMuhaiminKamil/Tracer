@@ -1,0 +1,93 @@
+{
+  "filings": [
+    {
+      "symbol": "ABCD.JK",
+      "timestamp": "2026-08-28T10:00:00",
+      "transaction_type": "buy",
+      "holder_type": "insider",
+      "holder_name": "Rina Pratama",
+      "amount_transaction": 1500000,
+      "price": 820,
+      "transaction_value": 1230000000,
+      "body": "Direktur membeli saham melalui pasar reguler untuk investasi pribadi.",
+      "tags": ["insider-trading"],
+      "source": "https://example.com/filing-abcd-1"
+    },
+    {
+      "symbol": "ABCD.JK",
+      "timestamp": "2026-09-06T11:30:00",
+      "transaction_type": "buy",
+      "holder_type": "insider",
+      "holder_name": "Budi Santoso",
+      "amount_transaction": 2400000,
+      "price": 850,
+      "transaction_value": 2040000000,
+      "body": "Komisaris membeli saham melalui pasar reguler dengan dana pribadi.",
+      "tags": ["insider-trading"],
+      "source": "https://example.com/filing-abcd-2"
+    },
+    {
+      "symbol": "ABCD.JK",
+      "timestamp": "2026-09-08T09:30:00",
+      "transaction_type": "buy",
+      "holder_type": "insider",
+      "holder_name": "Sari Wijaya",
+      "amount_transaction": 200000,
+      "price": 0,
+      "transaction_value": 0,
+      "body": "Perolehan saham melalui program ESOP.",
+      "tags": ["employee-stock"],
+      "source": "https://example.com/filing-abcd-esop"
+    },
+    {
+      "symbol": "WXYZ.JK",
+      "timestamp": "2026-09-03T13:00:00",
+      "transaction_type": "sell",
+      "holder_type": "corporate-investor",
+      "holder_name": "PT Contoh Investama",
+      "amount_transaction": 500000,
+      "price": 1200,
+      "transaction_value": 600000000,
+      "body": "Penjualan saham melalui pasar reguler.",
+      "tags": ["insider-trading"],
+      "source": "https://example.com/filing-wxyz-1"
+    },
+    {
+      "symbol": "WXYZ.JK",
+      "timestamp": "2026-09-09T10:00:00",
+      "transaction_type": "sell",
+      "holder_type": "insider",
+      "holder_name": "Direktur WXYZ",
+      "amount_transaction": 300000,
+      "price": 1160,
+      "transaction_value": 348000000,
+      "body": "Penjualan saham melalui pasar reguler untuk kebutuhan pribadi.",
+      "tags": ["insider-trading"],
+      "source": "https://example.com/filing-wxyz-2"
+    }
+  ],
+  "fundamentals": {
+    "ABCD.JK": {
+      "company_name": "PT Alpha Beta Cemerlang Tbk",
+      "pe_ttm": 11.8,
+      "pb_mrq": 1.4,
+      "roe_ttm": 0.182,
+      "der_mrq": 0.47,
+      "yoy_quarter_revenue_growth": 0.126,
+      "yoy_quarter_earnings_growth": 0.193
+    },
+    "WXYZ.JK": {
+      "company_name": "PT Wahana XYZ Tbk",
+      "pe_ttm": 18.2,
+      "pb_mrq": 2.1,
+      "roe_ttm": 0.095,
+      "der_mrq": 0.82,
+      "yoy_quarter_revenue_growth": 0.041,
+      "yoy_quarter_earnings_growth": -0.052
+    }
+  },
+  "prices": {
+    "ABCD.JK": {"last_close": 900, "low_52w": 780, "high_52w": 1580, "all_time_high": 2100},
+    "WXYZ.JK": {"last_close": 1170, "low_52w": 850, "high_52w": 1450, "all_time_high": 1900}
+  }
+}
