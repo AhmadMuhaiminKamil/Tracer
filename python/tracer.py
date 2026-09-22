@@ -67,6 +67,25 @@ def print_banner():
         print("  " + "".join(out))
     print()
 
+def _load_env_credentials():
+    global LLM_KEY, MODEL, GATEWAY
+    for env_path in [ROOT / ".env", ROOT.parent / ".env.local", ROOT.parent / "insideriq-web" / ".env.local"]:
+        if env_path.exists():
+            for line in env_path.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if line.startswith("#") or "=" not in line:
+                    continue
+                k, v = line.split("=", 1)
+                k, v = k.strip(), v.strip()
+                if k == "LLM_API_KEY" and not LLM_KEY:
+                    LLM_KEY = v
+                elif k == "LLM_MODEL" and (not MODEL or MODEL == "gpt-5.6"):
+                    MODEL = v
+                elif k == "LLM_BASE_URL" and (not GATEWAY or GATEWAY == "https://ohhmyagent.com/v1"):
+                    GATEWAY = v
+
+_load_env_credentials()
+
 def print_status(snapshot):
     p = snapshot.get("payload", {})
     updated = snapshot.get("source_updated_at", "?")
@@ -79,7 +98,8 @@ def print_status(snapshot):
     inner = terminal_width() - 4  # inner box width, borders drawn separately
     sumber = f"{CYAN}Sumber{RESET}   {p.get('scanned',0)} filing · {p.get('kept',0)} lolos · {AMBER}{len(p.get('clusters',[]))} cluster{RESET}"
     snap_line = f"{CYAN}Data{RESET}     {updated}{partial}"
-    model_line = f"{CYAN}Model{RESET}    {MODEL}"
+    model_str = f"{MODEL}" if LLM_KEY and MODEL else f"{DIM}Belum di-set (ketik /api){RESET}"
+    model_line = f"{CYAN}Model{RESET}    {model_str}"
     print(f"  {DIMLINE}┌{'─' * inner}┐{RESET}")
     for line in (sumber, snap_line, model_line):
         pad = inner - 2 - len(_strip_ansi(line))
@@ -339,8 +359,13 @@ def _make_session():
         from prompt_toolkit.completion import Completer, Completion
     except ImportError:
         try:
-            # Auto-install prompt_toolkit so user doesn't need manual venv setup
-            subprocess.run([sys.executable, "-m", "pip", "install", "-q", "prompt_toolkit"], check=True)
+            # Auto-install prompt_toolkit silently if pip is available
+            subprocess.run(
+                [sys.executable, "-m", "pip", "install", "-q", "prompt_toolkit"],
+                check=True,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
             from prompt_toolkit import PromptSession
             from prompt_toolkit.completion import Completer, Completion
         except Exception:
@@ -777,20 +802,20 @@ def open_browser(url: str):
 
 def run_dashboard(root: Path):
     """Build if needed, serve Next.js dashboard, open browser. Ctrl+C stops it."""
-    # dashboard lives next to this project: <parent>/insideriq-web; caller's root is ignored
-    web = ROOT.parent / "insideriq-web"
+    # Dashboard is at repository root (ROOT.parent) or legacy <parent>/insideriq-web
+    web = ROOT.parent if (ROOT.parent / "package.json").exists() else (ROOT.parent / "insideriq-web")
     if not (web / "package.json").exists():
         print(f"  {RED}Dashboard not found: {web}{RESET}")
         return
     if not (web / ".next" / "BUILD_ID").exists():
         print(f"  {DIM}Build dashboard…{RESET}")
-        build = os.system(f'cd "{web}" && npm run build')
-        if build != 0:
+        build = subprocess.run(["npm", "run", "build"], cwd=web)
+        if build.returncode != 0:
             print(f"  {RED}Build gagal.{RESET}")
             return
     print(f"  {DIM}Menjalankan dashboard…{RESET}")
     server = subprocess.Popen(
-        ["npm", "run", "start", "--", "--port", "3000"],
+        ["npm", "run", "start", "--", "-p", "3000"],
         cwd=web,
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
@@ -945,24 +970,7 @@ def _read_line(prompt: str) -> str:
 
 
 def main():
-    # check key
-    global LLM_KEY
-    if not LLM_KEY:
-        # try loading from .env file
-        env_file = ROOT / ".env"
-        if env_file.exists():
-            for line in env_file.read_text().splitlines():
-                if line.startswith("LLM_API_KEY="):
-                    LLM_KEY = line.split("=", 1)[1].strip()
-                    break
-    # also check insideriq-web .env.local for the key
-    if not LLM_KEY:
-        web_env = ROOT.parent / "insideriq-web" / ".env.local"
-        if web_env.exists():
-            for line in web_env.read_text().splitlines():
-                if line.startswith("LLM_API_KEY="):
-                    LLM_KEY = line.split("=", 1)[1].strip()
-                    break
+    _load_env_credentials()
 
     # one-shot mode: tracer ask "question"
     if len(sys.argv) > 2 and sys.argv[1] == "ask":
