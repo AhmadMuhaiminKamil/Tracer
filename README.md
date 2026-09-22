@@ -1,132 +1,121 @@
 # Tracer
 
-Cross-platform AI agent and web analytics dashboard for IDX (Indonesian Stock Exchange) insider-filing analysis. Detects accumulation/distribution clusters (≥2 insiders trading in the same direction on a single ticker), filters out non-market noise, and answers research questions over a local snapshot.
+Cross-platform AI agent and web analytics dashboard for IDX (Indonesia Stock Exchange) insider-filing analysis. Detects insider accumulation and distribution clusters, filters market noise, and provides interactive research over local snapshot data.
 
-**Bring your own keys.** All data and credentials stay on your local machine.
-
----
-
-## Platform Support
-
-Tracer runs natively across platforms:
-- **Windows**: PowerShell, Command Prompt (CMD), or Windows Terminal.
-- **Linux / WSL / macOS**: Bash, Zsh, or any standard terminal shell.
+**Bring your own keys.** All credentials and data remain local on your machine.
 
 ---
 
-## Installation & Setup
+## Quick Start (Clone & Install)
 
-### Prerequisites
-- **Node.js**: v18+ or v20+
-- **Python**: 3.10+ (with `venv` support)
+Prerequisites: **Node.js (v18+)** and **Python (3.10+)**.
 
-### 1. Windows (PowerShell / CMD)
+```bash
+# 1. Clone the repository
+git clone https://github.com/AhmadMuhaiminKamil/Tracer.git
+cd Tracer
 
-```powershell
-# Install Web Dashboard dependencies
+# 2. Install dependencies (Node & CLI auto-configured)
 npm install
-
-# Setup Python Virtual Environment
-python -m venv python/.venv
-.\python\.venv\Scripts\Activate.ps1
-pip install -r python/requirements.txt
-
-# Copy environment templates
-copy .env.local.example .env.local
-copy python\.env.example python\.env
 ```
-
-### 2. Linux / WSL / macOS
-
-```bash
-# Install Web Dashboard dependencies
-npm install
-
-# Setup Python Virtual Environment
-python3 -m venv python/.venv
-source python/.venv/bin/activate
-pip install -r python/requirements.txt
-
-# Copy environment templates
-cp .env.local.example .env.local
-cp python/.env.example python/.env
-```
-
-Fill in your `LLM_API_KEY` in `.env.local` and your `SECTORS_API_KEY` in `python/.env`.
 
 ---
 
-## Running Tracer
+## Setup API Keys
 
-### Option A: Interactive CLI
+You need a **Sectors API key** (market data) and an **LLM API key** (OpenAI / OpenRouter / local model). You can configure them via CLI or Web Dashboard:
 
-Launch the interactive terminal agent with prompt auto-complete and arrow-key session navigation:
+### Method 1: Via CLI (Quickest)
+Run the built-in interactive key manager:
 
-**Windows (PowerShell / CMD):**
-```powershell
-.\tracer.ps1          # or: .\tracer.cmd
-.\tracer.ps1 session  # browse and resume saved chat sessions
-```
-
-**Linux / WSL / macOS:**
-```bash
-./python/tracer.py          # or: npm run tracer
-./python/tracer.py session  # browse and resume saved chat sessions
-```
-
-CLI Commands inside the session:
-- `/scan` — list detected insider clusters
-- `/detail <TICKER>` — inspect cluster transactions & filing evidence
-- `/session` — switch or create sessions with arrow keys (↑/↓)
-- `/help` — view all commands
-- `/quit` — exit CLI
-
----
-
-### Option B: Web Dashboard
-
-Start the local Next.js glassmorphic dashboard:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-- **Production Build & Start:**
-  ```bash
-  npm run build
-  npm run start
+- **Windows (PowerShell / CMD):**
+  ```powershell
+  .\tracer.ps1 api
   ```
+- **Linux / WSL / macOS:**
+  ```bash
+  python3 python/tracer.py api
+  ```
+Follow the interactive prompt to add, test, or enable your keys.
+
+### Method 2: Via Web Dashboard
+1. Start the web application:
+   ```bash
+   npm run dev
+   ```
+2. Open [http://localhost:3000](http://localhost:3000) in your browser.
+3. Click the **API Keys** tab on the sidebar to add and toggle your Sectors and Model keys directly.
+
+*(Alternatively, copy `.env.local.example` to `.env.local` and `python/.env.example` to `python/.env` manually).*
+
+---
+
+## How to Run
+
+### 1. Interactive CLI Agent
+
+Run Tracer in your terminal with prompt auto-complete and arrow-key session history:
+
+- **Windows:**
+  ```powershell
+  .\tracer.ps1          # Start chat REPL
+  .\tracer.ps1 session  # Browse and resume saved sessions
+  ```
+
+- **Linux / WSL / macOS:**
+  ```bash
+  python3 python/tracer.py          # Start chat REPL
+  python3 python/tracer.py session  # Browse and resume saved sessions
+  ```
+
+**Useful CLI Commands inside chat:**
+- `/scan` — Display detected insider trading clusters.
+- `/detail <TICKER>` — View detailed filings and party breakdown.
+- `/session` — Switch or resume chat sessions with arrow keys (↑/↓).
+- `/help` — List all available commands.
+- `/quit` — Exit the CLI.
+
+---
+
+### 2. Web Dashboard
+
+Launch the local glassmorphic web dashboard:
+
+```bash
+# Development mode:
+npm run dev
+
+# Production build & run:
+npm run build
+npm run start
+```
+Access the dashboard at [http://localhost:3000](http://localhost:3000).
 
 ---
 
 ## Data Ingestion & Snapshot
 
-Tracer operates read-only against a local snapshot cache (`python/data/sectors_snapshot.json`). The web app and chat agent consume 0 API credits while browsing.
+Tracer operates read-only against a local snapshot cache (`python/data/sectors_snapshot.json`). Browsing and querying the dashboard consumes 0 external API credits.
 
-To ingest fresh market data from Sectors:
+To pull fresh market filings from Sectors:
 
 ```bash
-# Fetch 1 page (30 filings) - requires explicit credit confirmation
-python python/monitor.py --pages 1 --confirm-credits 1
+# Fetch filings (e.g. 1 page = 30 filings, 1 credit):
+python3 python/monitor.py --pages 1 --confirm-credits 1
 
-# Publish cached filings to the local snapshot
-python python/monitor.py --publish
+# Publish cached filings to local snapshot:
+python3 python/monitor.py --publish
 ```
 
 ---
 
-## Verification & Tests
+## Testing & Verification
 
 ```bash
-# Run web unit tests
-npx tsx web-tests/sessions.test.ts
+# Run CLI & backend tests
+python3 -m unittest discover -s python/tests -v
 
-# Run python engine & CLI tests
-python -m unittest discover -s python/tests -v
-
-# Production build check
+# Run frontend build check
 npm run build
 ```
 
@@ -134,4 +123,4 @@ npm run build
 
 ## Data Caveats
 
-Data is historical and partial; classification is heuristic. Corporate actions can shift historical ATH. Research and education only — not financial advice or a buy/sell recommendation.
+Data is historical and partial; classification is heuristic. For research and educational purposes only — not financial advice or a buy/sell recommendation.

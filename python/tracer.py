@@ -334,8 +334,17 @@ def print_commands():
 
 def _make_session():
     """One PromptSession for the REPL, with a filtered command dropdown."""
-    from prompt_toolkit import PromptSession
-    from prompt_toolkit.completion import Completer, Completion
+    try:
+        from prompt_toolkit import PromptSession
+        from prompt_toolkit.completion import Completer, Completion
+    except ImportError:
+        try:
+            # Auto-install prompt_toolkit so user doesn't need manual venv setup
+            subprocess.run([sys.executable, "-m", "pip", "install", "-q", "prompt_toolkit"], check=True)
+            from prompt_toolkit import PromptSession
+            from prompt_toolkit.completion import Completer, Completion
+        except Exception:
+            return None
 
     class CommandCompleter(Completer):
         """Offer commands only while the line looks like "/word" with no space."""
@@ -357,7 +366,12 @@ def _make_session():
 
 
 def repl(snapshot: dict, session: dict | None = None):
-    from prompt_toolkit.formatted_text import ANSI
+    ansi_fn = None
+    try:
+        from prompt_toolkit.formatted_text import ANSI
+        ansi_fn = ANSI
+    except ImportError:
+        pass
 
     print_banner()
     print_status(snapshot)
@@ -371,7 +385,7 @@ def repl(snapshot: dict, session: dict | None = None):
     prompt = f"\n{PINK}  ▸ you{RESET} {DIMLINE}│{RESET} "
     while True:
         try:
-            raw = (prompt_session.prompt(ANSI(prompt)) if prompt_session else input(prompt)).strip()
+            raw = (prompt_session.prompt(ansi_fn(prompt)) if prompt_session and ansi_fn else input(prompt)).strip()
         except (EOFError, KeyboardInterrupt):
             print(f"\n{DIM}  Goodbye.{RESET}")
             break
