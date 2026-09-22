@@ -1,0 +1,12 @@
+#!/bin/sh
+# Cross-platform runner: use python's local venv if present, else system python
+DIR="$(cd "$(dirname "$0")" && pwd)"
+if [ -x "$DIR/python/.venv/bin/python3" ]; then
+    exec "$DIR/python/.venv/bin/python3" "$DIR/python/tracer.py" "$@"
+elif [ -x "$DIR/python/.venv/bin/python" ]; then
+    exec "$DIR/python/.venv/bin/python" "$DIR/python/tracer.py" "$@"
+elif command -v python3 >/dev/null 2>&1; then
+    exec python3 "$DIR/python/tracer.py" "$@"
+else
+    exec python "$DIR/python/tracer.py" "$@"
+fi

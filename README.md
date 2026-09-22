@@ -1,122 +1,118 @@
 # Tracer
 
-Cross-platform AI agent and web analytics dashboard for IDX (Indonesia Stock Exchange) insider-filing analysis. Detects insider accumulation and distribution clusters, filters market noise, and provides interactive research over local snapshot data.
+Cross-platform AI agent and web analytics dashboard for IDX (Indonesia Stock Exchange) insider-filing analysis. Detects insider accumulation/distribution clusters, filters market noise, and provides interactive research over local snapshot data.
 
 **Bring your own keys.** All credentials and data remain local on your machine.
 
 ---
 
-## Quick Start (Clone & Install)
+## 1. Clone & Install
 
 Prerequisites: **Node.js (v18+)** and **Python (3.10+)**.
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/AhmadMuhaiminKamil/Tracer.git
 cd Tracer
-
-# 2. Install dependencies (Node & CLI auto-configured)
 npm install
 ```
 
 ---
 
-## Setup API Keys
+## 2. Setup API Keys
 
-You need a **Sectors API key** (market data) and an **LLM API key** (OpenAI / OpenRouter / local model). You can configure them via CLI or Web Dashboard:
+Tracer requires a **Sectors API key** (market data) and an **LLM API key** (OpenAI / OpenRouter / local model).
 
-### Method 1: Via CLI (Quickest)
-Run the built-in interactive key manager:
+### Option A: Via CLI (Instant)
 
-- **Windows (PowerShell / CMD):**
-  ```powershell
-  .\tracer.ps1 api
-  ```
+Run the key manager directly from the repo root:
+
 - **Linux / WSL / macOS:**
   ```bash
-  python3 python/tracer.py api
+  ./tracer api
   ```
-Follow the interactive prompt to add, test, or enable your keys.
+- **Windows (PowerShell / CMD):**
+  ```powershell
+  .\tracer api
+  ```
 
-### Method 2: Via Web Dashboard
-1. Start the web application:
+### Option B: Via Web Dashboard
+
+1. Start dashboard:
    ```bash
    npm run dev
    ```
-2. Open [http://localhost:3000](http://localhost:3000) in your browser.
-3. Click the **API Keys** tab on the sidebar to add and toggle your Sectors and Model keys directly.
+2. Open [http://localhost:3000](http://localhost:3000) and configure keys in the **API Keys** tab.
 
-*(Alternatively, copy `.env.local.example` to `.env.local` and `python/.env.example` to `python/.env` manually).*
+*(Or copy `.env.local.example` to `.env.local` and `python/.env.example` to `python/.env` manually).*
 
 ---
 
-## How to Run
+## 3. Running Tracer
 
-### 1. Interactive CLI Agent
+### Interactive CLI
 
-Run Tracer in your terminal with prompt auto-complete and arrow-key session history:
-
-- **Windows:**
-  ```powershell
-  .\tracer.ps1          # Start chat REPL
-  .\tracer.ps1 session  # Browse and resume saved sessions
-  ```
+Launch the terminal agent directly using the root runner:
 
 - **Linux / WSL / macOS:**
   ```bash
-  python3 python/tracer.py          # Start chat REPL
-  python3 python/tracer.py session  # Browse and resume saved sessions
+  ./tracer           # Start chat agent
+  ./tracer session   # Browse & resume saved sessions
+  ./tracer api       # Manage API keys
+  ```
+- **Windows (PowerShell / CMD):**
+  ```powershell
+  .\tracer           # Start chat agent
+  .\tracer session   # Browse & resume saved sessions
+  .\tracer api       # Manage API keys
   ```
 
-**Useful CLI Commands inside chat:**
-- `/scan` — Display detected insider trading clusters.
-- `/detail <TICKER>` — View detailed filings and party breakdown.
-- `/session` — Switch or resume chat sessions with arrow keys (↑/↓).
-- `/help` — List all available commands.
-- `/quit` — Exit the CLI.
+**CLI Commands inside chat:**
+- `/scan` — list detected insider clusters
+- `/detail <TICKER>` — inspect transactions and filing evidence
+- `/session` — switch or create sessions with arrow keys (↑/↓)
+- `/help` — view available commands
+- `/quit` — exit CLI
 
 ---
 
-### 2. Web Dashboard
-
-Launch the local glassmorphic web dashboard:
+### Web Dashboard
 
 ```bash
-# Development mode:
+# Development
 npm run dev
 
-# Production build & run:
+# Production
 npm run build
 npm run start
 ```
-Access the dashboard at [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
 ## Data Ingestion & Snapshot
 
-Tracer operates read-only against a local snapshot cache (`python/data/sectors_snapshot.json`). Browsing and querying the dashboard consumes 0 external API credits.
+Tracer operates read-only against a local snapshot (`python/data/sectors_snapshot.json`). Browsing consumes 0 external API credits.
 
-To pull fresh market filings from Sectors:
+To fetch fresh market filings from Sectors:
 
-```bash
-# Fetch filings (e.g. 1 page = 30 filings, 1 credit):
-python3 python/monitor.py --pages 1 --confirm-credits 1
-
-# Publish cached filings to local snapshot:
-python3 python/monitor.py --publish
-```
+- **Linux / WSL / macOS:**
+  ```bash
+  python3 python/monitor.py --pages 1 --confirm-credits 1
+  python3 python/monitor.py --publish
+  ```
+- **Windows:**
+  ```powershell
+  python python\monitor.py --pages 1 --confirm-credits 1
+  python python\monitor.py --publish
+  ```
 
 ---
 
-## Testing & Verification
+## Verification & Tests
 
 ```bash
-# Run CLI & backend tests
-python3 -m unittest discover -s python/tests -v
-
-# Run frontend build check
 npm run build
+python3 -m unittest discover -s python/tests -v
 ```
 
 ---

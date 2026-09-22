@@ -1,8 +1,12 @@
 @echo off
 setlocal
-where python >nul 2>&1
-if %ERRORLEVEL% EQU 0 (
-    python "%~dp0python\tracer.py" %*
+set "DIR=%~dp0"
+if exist "%DIR%python\.venv\Scripts\python.exe" (
+    "%DIR%python\.venv\Scripts\python.exe" "%DIR%python\tracer.py" %*
 ) else (
-    py "%~dp0python\tracer.py" %*
+    where python >nul 2>&1 && (
+        python "%DIR%python\tracer.py" %*
+    ) || (
+        py "%DIR%python\tracer.py" %*
+    )
 )
