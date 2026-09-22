@@ -56,7 +56,7 @@ class SessionStoreTests(unittest.TestCase):
 
     def test_touch_renames_placeholder_and_bumps(self):
         s = new_session(self.root)
-        self.assertEqual(s["title"], "Sesi baru")
+        self.assertEqual(s["title"], "New session")
         touch_session(self.root, s, question="Halo dunia")
         self.assertEqual(s["title"], "Halo dunia")
         touch_session(self.root, s, question="pertanyaan kedua")

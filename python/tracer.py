@@ -427,9 +427,8 @@ def repl(snapshot: dict, session: dict | None = None):
     if not session:
         saved = tracer_sessions.load_sessions(ROOT)
         session = saved[0] if saved else tracer_sessions.new_session(ROOT)
-        print(f"  {DIM}Active session: {AMBER}{session['title'][:50]}{RESET}\n")
-    else:
-        print(f"  {DIM}Active session: {AMBER}{session['title'][:50]}{RESET}\n")
+    tracer_sessions.save_session(ROOT, session)
+    print(f"  {DIM}Active session: {AMBER}{session['title'][:50]}{RESET}\n")
     history: list = tracer_sessions.clip_history(session.get("history", []))
     # prompt_toolkit needs a real terminal; piping/CI falls back to input().
     prompt_session = _make_session() if sys.stdin.isatty() else None
@@ -451,6 +450,12 @@ def repl(snapshot: dict, session: dict | None = None):
             continue
         if raw in ("/api", "/tracer api", "tracer api", "api"):
             manage_keys()
+            continue
+        if raw in ("/new", "new"):
+            session = tracer_sessions.new_session(ROOT)
+            tracer_sessions.save_session(ROOT, session)
+            history = []
+            print(f"  {DIM}Started new session: {AMBER}{session['title']}{RESET}\n")
             continue
         if raw in ("/session", "/sessions", "/tracer session", "/tracer sessions", "tracer session", "session", "sessions"):
             chosen = pick_session(ROOT)
@@ -806,7 +811,9 @@ def pick_session(root: Path) -> dict | None:
         if isinstance(picked, tuple):
             action, row = picked
             if action == "new":
-                return tracer_sessions.new_session(root)
+                s = tracer_sessions.new_session(root)
+                tracer_sessions.save_session(root, s)
+                return s
             if action == "delete":
                 if items[row]["type"] != "session":
                     continue
@@ -814,10 +821,14 @@ def pick_session(root: Path) -> dict | None:
                 sessions = tracer_sessions.delete_session(root, session_to_del["id"])
                 print(f"  {RED}Session deleted.{RESET}")
                 if not sessions:
-                    return tracer_sessions.new_session(root)
+                    s = tracer_sessions.new_session(root)
+                    tracer_sessions.save_session(root, s)
+                    return s
                 continue
         if items[picked]["type"] == "new":
-            return tracer_sessions.new_session(root)
+            s = tracer_sessions.new_session(root)
+            tracer_sessions.save_session(root, s)
+            return s
         return items[picked]["session"]
 
 
@@ -1027,6 +1038,7 @@ def main():
         chosen = pick_session(ROOT)
         if chosen is None:
             return
+        tracer_sessions.save_session(ROOT, chosen)
         repl(snapshot, session=chosen)
         return
 

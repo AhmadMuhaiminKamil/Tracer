@@ -68,7 +68,7 @@ def save_session(root: Path, session: dict) -> None:
 
 
 def new_session(root: Path, first_question: str = "") -> dict:
-    title = (first_question or "Sesi baru").strip()[:60]
+    title = (first_question or "New session").strip()[:60]
     return {
         "id": session_id(),
         "title": title,
@@ -80,7 +80,7 @@ def new_session(root: Path, first_question: str = "") -> dict:
 def touch_session(root: Path, session: dict, question: str | None = None) -> dict:
     """Bump updated; rename placeholder title on first real question."""
     if question is not None and session.get("title") in ("Sesi baru", "New session"):
-        session["title"] = question.strip()[:60] or "Sesi baru"
+        session["title"] = question.strip()[:60] or "New session"
     session["updated"] = time.strftime("%Y-%m-%dT%H:%M:%S")
     save_session(root, session)
     return session
