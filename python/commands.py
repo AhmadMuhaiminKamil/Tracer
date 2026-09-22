@@ -10,6 +10,7 @@ COMMANDS = [
     {"cmd": "/newdata", "args": "", "en": "pull fresh data from Sectors (1 credit)", "id": "tarik data baru dari Sectors (1 kredit)"},
     {"cmd": "/history", "args": "", "en": "conversation history", "id": "riwayat percakapan"},
     {"cmd": "/session", "args": "", "en": "open the session picker", "id": "buka pemilih sesi"},
+    {"cmd": "/api", "args": "", "en": "manage API keys", "id": "kelola API key"},
     {"cmd": "/help", "args": "", "en": "this help", "id": "bantuan ini"},
     {"cmd": "/quit", "args": "", "en": "exit", "id": "keluar"},
 ]
@@ -22,6 +23,11 @@ ALIASES = {
     "/tracer session": "/session",
     "/tracer sessions": "/session",
     "tracer session": "/session",
+    "session": "/session",
+    "sessions": "/session",
+    "/tracer api": "/api",
+    "tracer api": "/api",
+    "api": "/api",
     "/q": "/quit",
     "/exit": "/quit",
 }

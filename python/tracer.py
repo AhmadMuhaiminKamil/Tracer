@@ -398,6 +398,9 @@ def repl(snapshot: dict, session: dict | None = None):
         if raw == "/help":
             print_commands()
             continue
+        if raw in ("/api", "/tracer api", "tracer api", "api"):
+            manage_keys()
+            continue
         if raw in ("/session", "/sessions", "/tracer session", "/tracer sessions", "tracer session", "session", "sessions"):
             chosen = pick_session(ROOT)
             if chosen is None:

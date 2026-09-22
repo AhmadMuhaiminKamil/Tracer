@@ -14,7 +14,10 @@ Prerequisites: **Node.js (v18+)** and **Python (3.10+)**.
 git clone https://github.com/AhmadMuhaiminKamil/Tracer.git
 cd Tracer
 npm install
+npm link    # enables the global "tracer" command in your terminal
 ```
+
+> **Tip:** After running `npm link`, you can type `tracer` anywhere in your terminal without `./` or `python` prefixes.
 
 ---
 
@@ -24,16 +27,12 @@ Tracer requires a **Sectors API key** (market data) and an **LLM API key** (Open
 
 ### Option A: Via CLI (Instant)
 
-Run the key manager directly from the repo root:
+Run the key manager directly from your terminal:
 
-- **Linux / WSL / macOS:**
-  ```bash
-  ./tracer api
-  ```
-- **Windows (PowerShell / CMD):**
-  ```powershell
-  .\tracer api
-  ```
+```bash
+tracer api
+```
+*(If you didn't run `npm link`: use `./tracer api` on Linux/WSL or `.\tracer api` on Windows).*
 
 ### Option B: Via Web Dashboard
 
@@ -51,25 +50,21 @@ Run the key manager directly from the repo root:
 
 ### Interactive CLI
 
-Launch the terminal agent directly using the root runner:
+Launch the terminal agent directly:
 
-- **Linux / WSL / macOS:**
-  ```bash
-  ./tracer           # Start chat agent
-  ./tracer session   # Browse & resume saved sessions
-  ./tracer api       # Manage API keys
-  ```
-- **Windows (PowerShell / CMD):**
-  ```powershell
-  .\tracer           # Start chat agent
-  .\tracer session   # Browse & resume saved sessions
-  .\tracer api       # Manage API keys
-  ```
+```bash
+tracer           # Start interactive chat agent
+tracer session   # Browse & resume saved sessions (↑/↓ + Enter)
+tracer api       # Manage API keys
+```
+
+*(Or use `./tracer` on Linux/WSL, `.\tracer` on Windows).*
 
 **CLI Commands inside chat:**
 - `/scan` — list detected insider clusters
 - `/detail <TICKER>` — inspect transactions and filing evidence
-- `/session` — switch or create sessions with arrow keys (↑/↓)
+- `/session` (or `tracer session`) — switch or create sessions with arrow keys (↑/↓)
+- `/api` (or `tracer api`) — open key manager inside chat
 - `/help` — view available commands
 - `/quit` — exit CLI
 
