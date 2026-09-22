@@ -77,10 +77,29 @@ def new_session(root: Path, first_question: str = "") -> dict:
     }
 
 
+def format_activity_title(text: str) -> str:
+    raw = text.strip()
+    if raw == "/scan":
+        return "Scan clusters"
+    if raw.lower().startswith("/detail"):
+        parts = raw.split(maxsplit=1)
+        ticker = parts[1].upper().removesuffix(".JK") if len(parts) > 1 else ""
+        return f"Detail {ticker}" if ticker else "Detail ticker"
+    if raw.lower().startswith("/newdata"):
+        return "Data refresh"
+    if raw.lower().startswith("/history"):
+        return "History"
+    if raw.lower().startswith("/api"):
+        return "Manage keys"
+    if raw.startswith("/"):
+        return raw.lstrip("/")[:60].capitalize()
+    return raw[:60]
+
+
 def touch_session(root: Path, session: dict, question: str | None = None) -> dict:
-    """Bump updated; rename placeholder title on first real question."""
+    """Bump updated; rename placeholder title on real activity or question."""
     if question is not None and session.get("title") in ("Sesi baru", "New session"):
-        session["title"] = question.strip()[:60] or "New session"
+        session["title"] = format_activity_title(question)
     session["updated"] = time.strftime("%Y-%m-%dT%H:%M:%S")
     save_session(root, session)
     return session

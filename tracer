@@ -1,6 +1,19 @@
 #!/bin/sh
-# Cross-platform runner: use python's local venv if present, else system python
+# Cross-platform runner: auto-create venv if missing so prompt_toolkit is available
 DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Ensure python/.venv exists with prompt_toolkit for full interactive dropdown & arrow navigation
+if [ ! -x "$DIR/python/.venv/bin/python" ] && [ ! -x "$DIR/python/.venv/bin/python3" ]; then
+    if command -v uv >/dev/null 2>&1; then
+        uv venv "$DIR/python/.venv" -q 2>/dev/null
+        uv pip install prompt_toolkit --python "$DIR/python/.venv/bin/python" -q 2>/dev/null
+    elif command -v python3 >/dev/null 2>&1; then
+        python3 -m venv "$DIR/python/.venv" 2>/dev/null && "$DIR/python/.venv/bin/pip" install -q prompt_toolkit 2>/dev/null
+    elif command -v python >/dev/null 2>&1; then
+        python -m venv "$DIR/python/.venv" 2>/dev/null && "$DIR/python/.venv/bin/pip" install -q prompt_toolkit 2>/dev/null
+    fi
+fi
+
 if [ -x "$DIR/python/.venv/bin/python3" ]; then
     exec "$DIR/python/.venv/bin/python3" "$DIR/python/tracer.py" "$@"
 elif [ -x "$DIR/python/.venv/bin/python" ]; then

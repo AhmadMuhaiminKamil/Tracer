@@ -374,6 +374,20 @@ def print_commands():
     print(hr())
 
 
+def _setup_readline():
+    try:
+        import readline
+        readline.parse_and_bind("tab: complete")
+        def completer(text, state):
+            options = [c["cmd"] for c in commands.COMMANDS if c["cmd"].startswith(text)]
+            return options[state] if state < len(options) else None
+        readline.set_completer(completer)
+    except (ImportError, Exception):
+        pass
+
+_setup_readline()
+
+
 def _make_session():
     """One PromptSession for the REPL, with a filtered command dropdown."""
     try:
@@ -381,13 +395,11 @@ def _make_session():
         from prompt_toolkit.completion import Completer, Completion
     except ImportError:
         try:
-            # Auto-install prompt_toolkit silently if pip is available
-            subprocess.run(
-                [sys.executable, "-m", "pip", "install", "-q", "prompt_toolkit"],
-                check=True,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL,
-            )
+            import shutil
+            if shutil.which("uv"):
+                subprocess.run(["uv", "pip", "install", "prompt_toolkit", "-q"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            else:
+                subprocess.run([sys.executable, "-m", "pip", "install", "-q", "prompt_toolkit"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             from prompt_toolkit import PromptSession
             from prompt_toolkit.completion import Completer, Completion
         except Exception:
@@ -406,7 +418,7 @@ def _make_session():
                         entry["cmd"],
                         start_position=-len(text),
                         display=entry["cmd"] + (" " + entry["args"] if entry["args"] else ""),
-                        display_meta=entry["id"],
+                        display_meta=entry["en"],
                     )
 
     return PromptSession(completer=CommandCompleter(), complete_while_typing=True)
@@ -477,6 +489,8 @@ def repl(snapshot: dict, session: dict | None = None):
                 print(f"  {DIM}---------------------------------------{RESET}\n")
             continue
         if raw == "/scan":
+            if session:
+                tracer_sessions.touch_session(ROOT, session, question=raw)
             clusters = snapshot["payload"].get("clusters", [])
             print()
             print(hr())
@@ -499,6 +513,8 @@ def repl(snapshot: dict, session: dict | None = None):
             print(hr())
             continue
         if raw.lower().startswith("/detail"):
+            if session:
+                tracer_sessions.touch_session(ROOT, session, question=raw)
             parts = raw.split(maxsplit=1)
             if len(parts) < 2:
                 print(f"  {DIM}Usage: /detail HEAL{RESET}\n")
@@ -539,6 +555,8 @@ def repl(snapshot: dict, session: dict | None = None):
             print(hr())
             continue
         if raw == "/newdata":
+            if session:
+                tracer_sessions.touch_session(ROOT, session, question=raw)
             print(hr())
             print(f"  {AMBER}Fetching fresh data{RESET} {DIM}(5 credits · latest 150 filings){RESET}")
             print(hr())
@@ -590,6 +608,8 @@ def repl(snapshot: dict, session: dict | None = None):
             print()
             continue
         if raw == "/history":
+            if session:
+                tracer_sessions.touch_session(ROOT, session, question=raw)
             if not history:
                 print(f"  {DIM}No history yet.{RESET}\n")
                 continue
