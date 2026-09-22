@@ -1,8 +1,9 @@
 import { spawn } from "node:child_process";
 import { NextResponse } from "next/server";
+import { PYTHON_BIN } from "../../env";
 
 // Serves python/commands.py so the CLI and the web composer share one list.
-const PYTHON = process.env.PYTHON_BIN ?? "python3";
+const PYTHON = PYTHON_BIN;
 
 export async function GET() {
   const out = await new Promise<string>((resolve) => {

@@ -1,9 +1,10 @@
 import { spawn } from "node:child_process";
 import { NextRequest, NextResponse } from "next/server";
+import { PYTHON_BIN } from "../../../env";
 
 // Thin bridge to python/keys_store.py. Same reasoning as /api/keys: the store,
 // masking, validation and .env mirroring already live in Python.
-const PYTHON = process.env.PYTHON_BIN ?? "python3";
+const PYTHON = PYTHON_BIN;
 const SCRIPT = "python/keys_store.py";
 
 function run(args: string[], script = SCRIPT): Promise<{ code: number; out: string; err: string }> {

@@ -21,6 +21,8 @@ export async function readEnvFile(): Promise<Record<string, string>> {
   return out;
 }
 
+export const PYTHON_BIN = process.env.PYTHON_BIN ?? (process.platform === "win32" ? "python" : "python3");
+
 export type LlmConfig = { baseUrl: string; model: string; key: string };
 
 export async function llmConfig(): Promise<LlmConfig> {

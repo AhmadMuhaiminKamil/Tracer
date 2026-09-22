@@ -21,6 +21,9 @@ import tracer_sessions
 ROOT = Path(__file__).resolve().parent
 SNAPSHOT_PATH = ROOT / "data" / "sectors_snapshot.json"
 
+if os.name == "nt":
+    os.system("")  # Enable ANSI / VT100 escape sequences on Windows console
+
 MODEL = os.getenv("LLM_MODEL", "gpt-5.6")
 GATEWAY = os.getenv("LLM_BASE_URL", "https://ohhmyagent.com/v1")
 LLM_KEY = os.getenv("LLM_API_KEY", "")
@@ -601,7 +604,58 @@ def pick_menu(title: str, labels: list[str], hint: str, root: Path, keys: dict |
             print(f"\033[2K  {marker} {bold}{label}{reset}")
         sys.stdout.flush()
 
+    if os.name == "nt" and not isinstance(sys.stdin, io.StringIO):
+        import msvcrt
+
+        sys.stdout.write("\033[?25l")
+        sys.stdout.flush()
+        render(first=True)
+        try:
+            while True:
+                ch = msvcrt.getwch()
+                if not ch:
+                    return None
+                if ch in ("\x00", "\xe0"):
+                    ch2 = msvcrt.getwch()
+                    if ch2 in ("H", "K"):  # Up or Left
+                        selected = max(0, selected - 1)
+                        render()
+                    elif ch2 in ("P", "M"):  # Down or Right
+                        selected = min(len(labels) - 1, selected + 1)
+                        render()
+                elif ch == "\x1b":
+                    if msvcrt.kbhit():
+                        seq = msvcrt.getwch() + msvcrt.getwch()
+                        if seq.endswith("A") or seq in ("[A", "OA"):
+                            selected = max(0, selected - 1)
+                        elif seq.endswith("B") or seq in ("[B", "OB"):
+                            selected = min(len(labels) - 1, selected + 1)
+                        render()
+                    else:
+                        print(f"\n  {DIM}Cancelled.{RESET}")
+                        return None
+                elif ch in ("k", "K"):
+                    selected = max(0, selected - 1)
+                    render()
+                elif ch in ("j", "J"):
+                    selected = min(len(labels) - 1, selected + 1)
+                    render()
+                elif ch in ("\r", "\n"):
+                    print()
+                    return selected
+                elif ch in ("q", "Q", "\x03"):
+                    print(f"\n  {DIM}Cancelled.{RESET}")
+                    return None
+                elif keys and ch in keys:
+                    return (keys[ch], selected)
+        finally:
+            sys.stdout.write("\033[?25h")
+            sys.stdout.flush()
+
     try:
+        import termios
+        import tty
+
         old = termios.tcgetattr(sys.stdin)
         tty.setcbreak(sys.stdin.fileno())
         sys.stdout.write("\033[?25l")  # hide cursor
@@ -636,14 +690,14 @@ def pick_menu(title: str, labels: list[str], hint: str, root: Path, keys: dict |
                 return None
             elif keys and key in keys:
                 return (keys[key], selected)
-    except termios.error:
+    except (ImportError, Exception):
         return 0 if labels else None
     finally:
         sys.stdout.write("\033[?25h")  # restore cursor
         sys.stdout.flush()
         try:
             termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old)
-        except (termios.error, NameError):
+        except (Exception, NameError):
             pass
 
 

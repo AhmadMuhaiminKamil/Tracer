@@ -1,9 +1,10 @@
 import { spawn } from "node:child_process";
 import { NextRequest, NextResponse } from "next/server";
+import { PYTHON_BIN } from "../../env";
 
 // Reuses python/monitor.py: it already owns the credit ledger, the run/page caps
 // and the response cache. A second fetch path here would be a second ledger.
-const PYTHON = process.env.PYTHON_BIN ?? "python3";
+const PYTHON = PYTHON_BIN;
 const PAGES = 5; // monitor caps a run at 5 pages = 150 filings = 5 credits.
 
 function run(args: string[]): Promise<{ code: number; out: string; err: string }> {

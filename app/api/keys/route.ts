@@ -1,10 +1,11 @@
 import { spawn } from "node:child_process";
 import { NextRequest, NextResponse } from "next/server";
+import { PYTHON_BIN } from "../../env";
 
 // Thin bridge to python/apikeys.py — the CLI already owns env read/write, key
 // masking, connectivity tests and model listing. Re-implementing any of that in
 // TypeScript would be a second source of truth for the same .env file.
-const PYTHON = process.env.PYTHON_BIN ?? "python3";
+const PYTHON = PYTHON_BIN;
 const SCRIPT = "python/apikeys.py";
 
 type Action = "read" | "test_sectors" | "test_llm" | "list_models" | "save";
