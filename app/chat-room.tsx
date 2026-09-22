@@ -101,18 +101,60 @@ export default function ChatRoom() {
   const input = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
-    const stored = parseSessions(localStorage.getItem(SESSIONS_KEY));
-    const active = parseActive(localStorage.getItem(ACTIVE_SESSION_KEY));
-    const id = active && stored.some((s) => s.id === active) ? active : stored[0]?.id ?? "";
-    setSessions(stored);
-    setActiveId(id);
-    setMessages(id ? parseHistory(localStorage.getItem(`${HISTORY_KEY}:${id}`)) : []);
-    setReady(true);
+    fetch("/api/sessions")
+      .then((r) => r.json())
+      .then((d) => {
+        const list: { id: string; title: string; updated: string; history?: ChatMessage[] }[] = d.sessions || [];
+        if (list.length) {
+          const metas: SessionMeta[] = list.map((s) => ({ id: s.id, title: s.title, updated: s.updated }));
+          setSessions(metas);
+          const active = parseActive(localStorage.getItem(ACTIVE_SESSION_KEY));
+          const currentId = active && metas.some((s) => s.id === active) ? active : metas[0].id;
+          setActiveId(currentId);
+          const target = list.find((s) => s.id === currentId);
+          setMessages(target?.history?.length ? target.history : []);
+          setReady(true);
+          return;
+        }
+        const stored = parseSessions(localStorage.getItem(SESSIONS_KEY));
+        const active = parseActive(localStorage.getItem(ACTIVE_SESSION_KEY));
+        const id = active && stored.some((s) => s.id === active) ? active : stored[0]?.id ?? "";
+        setSessions(stored);
+        setActiveId(id);
+        setMessages(id ? parseHistory(localStorage.getItem(`${HISTORY_KEY}:${id}`)) : []);
+        setReady(true);
+      })
+      .catch(() => {
+        const stored = parseSessions(localStorage.getItem(SESSIONS_KEY));
+        const active = parseActive(localStorage.getItem(ACTIVE_SESSION_KEY));
+        const id = active && stored.some((s) => s.id === active) ? active : stored[0]?.id ?? "";
+        setSessions(stored);
+        setActiveId(id);
+        setMessages(id ? parseHistory(localStorage.getItem(`${HISTORY_KEY}:${id}`)) : []);
+        setReady(true);
+      });
   }, []);
 
   useEffect(() => {
-    if (ready && activeId) localStorage.setItem(`${HISTORY_KEY}:${activeId}`, stringifyHistory(messages));
-  }, [messages, ready, activeId]);
+    if (!ready || !activeId) return;
+    localStorage.setItem(`${HISTORY_KEY}:${activeId}`, stringifyHistory(messages));
+    const currentSession = sessions.find((s) => s.id === activeId);
+    if (currentSession && messages.length) {
+      void fetch("/api/sessions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          action: "save",
+          session: {
+            id: activeId,
+            title: currentSession.title,
+            updated: currentSession.updated,
+            history: messages.map(({ role, content }) => ({ role, content })),
+          },
+        }),
+      });
+    }
+  }, [messages, ready, activeId, sessions]);
 
   useEffect(() => {
     if (!ready) return;
@@ -295,6 +337,11 @@ export default function ChatRoom() {
     const remaining = removeSession(sessions, id);
     localStorage.removeItem(`${HISTORY_KEY}:${id}`);
     setSessions(remaining);
+    void fetch("/api/sessions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "delete", id }),
+    });
     if (id === activeId) {
       const next = remaining[0]?.id ?? "";
       setActiveId(next);
@@ -308,6 +355,11 @@ export default function ChatRoom() {
     setActiveId("");
     setMessages([]);
     setError("");
+    void fetch("/api/sessions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "clear" }),
+    });
   }
 
   function clearActive() {

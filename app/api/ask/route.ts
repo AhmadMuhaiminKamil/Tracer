@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
+import { appendFile, mkdir } from "node:fs/promises";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { getSnapshot } from "../../snapshot";
 import { acquireSlot, runAgent, type Completion } from "./agent";
 import { sanitizeChat } from "./logic";
@@ -131,7 +134,21 @@ export async function POST(request: NextRequest) {
     const watchlist = Array.isArray(body.watchlist)
       ? Array.from(new Set<string>(body.watchlist.map((value: unknown) => String(value).trim().toUpperCase().replace(/\.JK$/, "")).filter((value: string) => /^[A-Z0-9-]{1,20}$/.test(value)))).slice(0, 50)
       : [];
-    return NextResponse.json(await runAgent(question, history, watchlist, complete, getSnapshot));
+    const result = await runAgent(question, history, watchlist, complete, getSnapshot);
+    try {
+      const logDir = join(process.cwd(), "python", "data");
+      const logFile = join(logDir, "chat_log.jsonl");
+      if (!existsSync(logDir)) await mkdir(logDir, { recursive: true });
+      const entry = JSON.stringify({
+        ts: new Date().toISOString(),
+        question,
+        answer: result.answer,
+        tools: result.tools || [],
+        ms: result.latency_ms || 0,
+      }) + "\n";
+      await appendFile(logFile, entry, "utf-8");
+    } catch {}
+    return NextResponse.json(result);
   } catch (error) {
     const message = error instanceof Error ? error.message : "Agent gagal";
     const status = /menit|bersamaan/.test(message) ? 429 : /wajib|valid|Content-Type/.test(message) ? 400 : 502;

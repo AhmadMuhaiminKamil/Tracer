@@ -79,28 +79,34 @@ def save(values: dict[str, str]) -> list[Path]:
             write_env(values, path)
             written.append(path)
     return written
-
-
 def test_sectors(key: str) -> tuple[bool, str]:
-    """Cheapest possible call: 1 credit. The user asked to spend it to know the key works."""
+    """Hits subsectors (the cheapest documented endpoint) to verify the key works.
+    Burns 1 real credit on purpose — a dry-run auth test is not an auth test.
+    """
     request = urllib.request.Request(
-        "https://api.sectors.app/v2/filings/?limit=1",
-        headers={"Authorization": key, "User-Agent": "insideriq/0.1"},
+        "https://api.sectors.app/v1/subsectors/",
+        headers={"Authorization": key},
     )
     try:
         with urllib.request.urlopen(request, timeout=20):
-            return True, "Kunci valid (1 kredit terpakai)"
+            return True, "Key is valid (1 credit used)"
     except urllib.error.HTTPError as error:
         if error.code in (401, 403):
-            return False, f"Kunci ditolak (HTTP {error.code})"
-        return False, f"Sectors menjawab HTTP {error.code}"
+            return False, f"Key rejected (HTTP {error.code})"
+        return False, f"Sectors returned HTTP {error.code}"
     except Exception as error:  # noqa: BLE001 — network shape varies; report, don't crash
-        return False, f"Tidak bisa menghubungi Sectors: {type(error).__name__}"
+        return False, f"Cannot connect to Sectors: {type(error).__name__}"
 
 
 def test_llm(base_url: str, key: str, model: str) -> tuple[bool, str]:
     """One tiny completion. Validates base URL *and* key together, which is the point."""
-    payload = json.dumps({"model": model, "messages": [{"role": "user", "content": "ping"}], "max_completion_tokens": 1})
+    payload = json.dumps({
+        "model": model,
+        "messages": [{"role": "user", "content": "ping"}],
+        "stream": False,
+        "max_tokens": 5,
+        "max_completion_tokens": 5,
+    })
     request = urllib.request.Request(
         f"{base_url.rstrip('/')}/chat/completions",
         data=payload.encode(),
@@ -108,14 +114,30 @@ def test_llm(base_url: str, key: str, model: str) -> tuple[bool, str]:
     )
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
-            body = json.loads(response.read())
+            raw = response.read().decode("utf-8", errors="replace")
+            if raw.strip().startswith("data:"):
+                body = {}
+                for line in raw.splitlines():
+                    line = line.strip()
+                    if line.startswith("data:") and line != "data: [DONE]":
+                        try:
+                            body = json.loads(line[5:].strip())
+                            break
+                        except Exception:
+                            pass
+            else:
+                body = json.loads(raw)
     except urllib.error.HTTPError as error:
-        return False, f"Gateway menolak (HTTP {error.code})"
+        return False, f"Gateway rejected request (HTTP {error.code})"
     except Exception as error:  # noqa: BLE001
-        return False, f"Base URL tidak terjangkau: {type(error).__name__}"
+        return False, f"Cannot reach Gateway: {type(error).__name__}"
+    if body.get("error"):
+        err = body["error"]
+        msg = err.get("message") if isinstance(err, dict) else str(err)
+        return False, f"Gateway error: {msg}"
     if not body.get("choices"):
-        return False, "Respons tidak berisi choices"
-    return True, "Base URL dan kunci valid"
+        return False, "Response contains no choices"
+    return True, "Gateway and API key are valid"
 
 
 def list_models(base_url: str, key: str) -> list[str]:
