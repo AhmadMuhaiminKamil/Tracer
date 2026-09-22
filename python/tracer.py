@@ -807,6 +807,12 @@ def run_dashboard(root: Path):
     if not (web / "package.json").exists():
         print(f"  {RED}Dashboard not found: {web}{RESET}")
         return
+    if not (web / "node_modules").exists():
+        print(f"  {DIM}Memasang dependensi dashboard (npm install)…{RESET}")
+        install = subprocess.run(["npm", "install"], cwd=web)
+        if install.returncode != 0:
+            print(f"  {RED}npm install gagal.{RESET}")
+            return
     if not (web / ".next" / "BUILD_ID").exists():
         print(f"  {DIM}Build dashboard…{RESET}")
         build = subprocess.run(["npm", "run", "build"], cwd=web)
