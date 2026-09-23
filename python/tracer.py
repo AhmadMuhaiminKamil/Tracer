@@ -867,22 +867,24 @@ def run_dashboard(root: Path):
     if not (web / "package.json").exists():
         print(f"  {RED}Dashboard not found: {web}{RESET}")
         return
+    npm_cmd = "npm.cmd" if os.name == "nt" else "npm"
     if not (web / "node_modules").exists():
         print(f"  {DIM}Installing dashboard dependencies (npm install)...{RESET}")
-        install = subprocess.run(["npm", "install"], cwd=web)
+        install = subprocess.run([npm_cmd, "install"], cwd=web, shell=(os.name == "nt"))
         if install.returncode != 0:
             print(f"  {RED}npm install failed.{RESET}")
             return
     if not (web / ".next" / "BUILD_ID").exists():
         print(f"  {DIM}Building dashboard (npm run build)...{RESET}")
-        build = subprocess.run(["npm", "run", "build"], cwd=web)
+        build = subprocess.run([npm_cmd, "run", "build"], cwd=web, shell=(os.name == "nt"))
         if build.returncode != 0:
             print(f"  {RED}Build failed.{RESET}")
             return
     print(f"  {DIM}Starting dashboard server...{RESET}")
     server = subprocess.Popen(
-        ["npm", "run", "start", "--", "-p", "3000"],
+        [npm_cmd, "run", "start", "--", "-p", "3000"],
         cwd=web,
+        shell=(os.name == "nt"),
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
