@@ -46,9 +46,15 @@ def locked(root: Path):
         path.unlink()
 
 
-def fetch_page(offset: int) -> dict:
-    start = (date.today() - timedelta(days=30)).isoformat()
-    query = urllib.parse.urlencode({"start": start, "end": date.today().isoformat(), "limit": 30, "offset": offset})
+def today_date():
+    from datetime import datetime, timezone
+    return datetime.now(timezone.utc).date()
+
+
+def fetch_page(offset: int = 0) -> dict:
+    today = today_date()
+    start = (today - timedelta(days=30)).isoformat()
+    query = urllib.parse.urlencode({"start": start, "end": today.isoformat(), "limit": 30, "offset": offset})
     request = urllib.request.Request(
         "https://api.sectors.app/v2/filings/?" + query,
         headers={"Authorization": load_api_key(), "User-Agent": "insideriq/0.1"},
@@ -57,9 +63,10 @@ def fetch_page(offset: int) -> dict:
         with urllib.request.urlopen(request, timeout=45) as response:
             return json.load(response)
     except urllib.error.HTTPError as error:
+        err_body = error.read().decode("utf-8", "replace")[:200]
         raise SystemExit(
-            f"Sectors menolak key kamu (HTTP {error.code}). Cek SECTORS_API_KEY di python/.env "
-            "dan sisa kredit akunmu. Kredit tetap terpakai untuk percobaan yang gagal."
+            f"Sectors rejected request (HTTP {error.code}): {err_body}. "
+            "Please check SECTORS_API_KEY in python/.env and your remaining account credits."
         ) from error
 
 
@@ -72,7 +79,10 @@ def fetch_report(symbol: str) -> dict:
         with urllib.request.urlopen(request, timeout=60) as response:
             return json.load(response)
     except urllib.error.HTTPError as error:
-        raise SystemExit(f"Sectors menolak key kamu (HTTP {error.code}) saat ambil report {symbol}.") from error
+        err_body = error.read().decode("utf-8", "replace")[:200]
+        raise SystemExit(
+            f"Sectors rejected report request for {symbol} (HTTP {error.code}): {err_body}."
+        ) from error
 
 
 def refresh_reports(root: Path, reports: Path, symbols: list[str], confirmed: int, total_cap: int = 60):
@@ -113,16 +123,17 @@ def refresh(root: Path, pages: int, confirmed: int, run_cap: int = 5, total_cap:
         results = []
         partial = False
         for page_number in range(pages):
-            cache = root / "responses" / f"{date.today()}-30d-{page_number}.json"
+            today = today_date()
+            cache = root / "responses" / f"{today}-30d-{page_number}.json"
             if cache.exists() and not fresh:
                 page = json.loads(cache.read_text())
             else:
-                if budget["reserved"] >= total_cap: raise RuntimeError("Total budget habis; tidak ada request")
+                if budget["reserved"] >= total_cap: raise RuntimeError("Total budget limit reached; no request made")
                 budget["reserved"] += 1
                 _atomic(budget_path, budget)  # reserve before network; failures stay charged conservatively
                 page = fetch_page(page_number * 30)
                 _atomic(cache, page)
-            if not isinstance(page.get("results"), list): raise ValueError("Respons filings tidak valid")
+            if not isinstance(page.get("results"), list): raise ValueError("Invalid filings response format")
             results.extend(page["results"])
             partial = bool(page.get("pagination", {}).get("has_next"))
             if not partial: break
@@ -136,10 +147,11 @@ def refresh(root: Path, pages: int, confirmed: int, run_cap: int = 5, total_cap:
 def publish_cached(root: Path, reports: Path, target: Path, upload=False):
     filings = root / "filings.json"
     if not filings.exists():
-        raise SystemExit("Belum ada filings.json. Jalankan dulu: monitor.py --pages 1 --confirm-credits 1")
+        raise SystemExit("filings.json not found. Ingest first with: monitor.py --pages 1 --confirm-credits 1")
     rows = json.loads(filings.read_text())
-    start = (date.today() - timedelta(days=30)).isoformat()
-    rows = [r for r in rows if start <= str(r.get("timestamp", ""))[:10] <= date.today().isoformat()]
+    today = today_date()
+    start = (today - timedelta(days=30)).isoformat()
+    rows = [r for r in rows if start <= str(r.get("timestamp", ""))[:10] <= today.isoformat()]
     kept = [r for r in rows if is_genuine_transaction(r)]
     clusters = detect_clusters(kept)
     for c in clusters:

@@ -23,7 +23,7 @@ def load_api_key() -> str:
                     key = line.split("=", 1)[1].strip()
                     break
     if not key:
-        raise RuntimeError("SECTORS_API_KEY belum diisi di .env")
+        raise RuntimeError("SECTORS_API_KEY is not configured in python/.env")
     return key
 
 

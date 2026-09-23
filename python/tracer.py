@@ -590,6 +590,8 @@ def repl(snapshot: dict, session: dict | None = None):
                     need = json.loads(probe.stdout.strip().split("\n")[-1])
                 except (json.JSONDecodeError, IndexError):
                     need = {"maximum_credits": 0}
+                missing_list = need.get("missing", [])
+                missing_count = len(missing_list) if isinstance(missing_list, list) else 0
                 credits = need.get("maximum_credits", 0)
                 if credits:
                     fetched = subprocess.run(
@@ -601,9 +603,8 @@ def repl(snapshot: dict, session: dict | None = None):
                         subprocess.run([sys.executable, str(ROOT / "monitor.py"), "--publish"],
                                        capture_output=True, text=True)
                         snapshot = load_snapshot()
-                        print(f"  {GREEN}ok{RESET} {credits} kredit · fundamental {len(need.get('missing', []))} emiten")
+                        print(f"  {GREEN}ok{RESET} {credits} credits · fundamentals for {missing_count} companies")
                     else:
-                        # Kredit/cap kurang: filing tetap masuk, laporan tidak. Jangan gagalkan /newdata.
                         print(f"  {AMBER}!{RESET} reports skipped: {(fetched.stderr or fetched.stdout).strip()[:90]}")
             print()
             continue
@@ -616,7 +617,7 @@ def repl(snapshot: dict, session: dict | None = None):
             for msg in history[-6:]:
                 role = msg["role"]
                 color = PINK if role == "user" else AMBER
-                label = "Anda" if role == "user" else "Tracer"
+                label = "You" if role == "user" else "Tracer"
                 print(f"  {color}{label}:{RESET} {msg['content'][:120]}{'...' if len(msg['content'])>120 else ''}")
             print()
             continue
