@@ -406,14 +406,14 @@ def _make_session():
             return None
 
     class CommandCompleter(Completer):
-        """Offer commands only while the line looks like "/word" with no space."""
+        """Offer commands whenever typing /."""
 
         def get_completions(self, document, complete_event):
             text = document.text_before_cursor
             if not text.startswith("/") or " " in text:
                 return
             for entry in commands.COMMANDS:
-                if entry["cmd"].startswith(text.lower()):
+                if entry["cmd"].lower().startswith(text.lower()):
                     yield Completion(
                         entry["cmd"],
                         start_position=-len(text),
@@ -421,7 +421,8 @@ def _make_session():
                         display_meta=entry["en"],
                     )
 
-    return PromptSession(completer=CommandCompleter(), complete_while_typing=True)
+    from prompt_toolkit.history import InMemoryHistory
+    return PromptSession(completer=CommandCompleter(), complete_while_typing=True, history=InMemoryHistory())
 
 
 def repl(snapshot: dict, session: dict | None = None):
