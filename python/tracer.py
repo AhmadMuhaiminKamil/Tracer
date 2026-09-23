@@ -679,8 +679,6 @@ def pick_menu(title: str, labels: list[str], hint: str, root: Path, keys: dict |
     raw-mode loop. Extra keys (n/d/q in the session picker) come in as a dict.
     """
     import io
-    import termios
-    import tty
 
     selected = 0
     sub = f" {DIM}— {hint}{RESET}" if hint else f" {DIM}— ↑/↓ navigate · Enter select · q cancel{RESET}"
@@ -745,6 +743,8 @@ def pick_menu(title: str, labels: list[str], hint: str, root: Path, keys: dict |
             sys.stdout.write("\033[?25h")
             sys.stdout.flush()
 
+    # POSIX fallback / Linux / macOS
+    old = None
     try:
         import termios
         import tty
@@ -788,10 +788,12 @@ def pick_menu(title: str, labels: list[str], hint: str, root: Path, keys: dict |
     finally:
         sys.stdout.write("\033[?25h")  # restore cursor
         sys.stdout.flush()
-        try:
-            termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old)
-        except (Exception, NameError):
-            pass
+        if old is not None:
+            try:
+                import termios
+                termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old)
+            except Exception:
+                pass
 
 
 def pick_session(root: Path) -> dict | None:
